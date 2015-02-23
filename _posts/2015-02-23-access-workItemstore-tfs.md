@@ -58,11 +58,11 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
    at Microsoft.TeamFoundation.Client.TfsConnection.GetService(Type serviceType)
    at Microsoft.TeamFoundation.Client.TfsConnection.GetService[T]()
 
-In this case I monitor the process with [FileMon](https://technet.microsoft.com/en-us/sysinternals/bb896645) and the process ends with ana ccess denied to folder   C:\ProgramData\Microsoft Team Foundation\4.0\Cache
+In this case I monitor the process with [FileMon](https://technet.microsoft.com/en-us/sysinternals/bb896645) and the process ends with an access denied to folder   C:\ProgramData\Microsoft Team Foundation\4.0\Cache
 
-Once I gave write permissions to C:\ProgramData\Microsoft Team Foundation\4.0\Cache application run properly.
+Once I gave write permissions to C:\ProgramData\Microsoft Team Foundation\4.0\Cache the application runs properly.
 
-You can find this error when you install an application which access to TFS outside of a data tier and without Visual Studio installed.
+You can find this errors when you install it to a server which is not TFS data tier and without Visual Studio installed either.
 
 Sample code can be found at [Github](https://github.com/enricforn/sampleapplications/tree/master/c%23/TFSUserStoriesConsole). 
 
