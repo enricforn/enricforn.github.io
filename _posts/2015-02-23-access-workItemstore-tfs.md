@@ -68,4 +68,6 @@ Once I gave write permissions to C:\ProgramData\Microsoft Team Foundation\4.0\Ca
 
 You can find this error when you install an application which access to TFS outside of a data tier and without Visual Studio installed.
 
+Sample code can be found at [Github](https://github.com/enricforn/sampleapplications/tree/master/c%23/TFSUserStoriesConsole). 
+
 Hope it helps and you save time to solve this problems.
