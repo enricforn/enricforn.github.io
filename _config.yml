@@ -25,6 +25,16 @@ author:
   bio: Personal blog. Software development, software automation, DevOps, Continuous Delivery, distributed teams
   email_md5: e4306225c5593de4b39fa7f66d49f81b
 
+comments :
+    provider : disqus
+    disqus :
+      short_name : enricforn
+
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-5555555-7'
+        
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
