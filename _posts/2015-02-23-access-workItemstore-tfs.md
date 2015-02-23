@@ -9,13 +9,13 @@ description: How to connect to TFS or Visual Studio online through API and get W
 In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we'll get a list of all existing user stories in a team project. I suppouse you are familiar to [TFS](http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx), and you are used to work with [WorkItems](https://msdn.microsoft.com/en-us/library/hh409275.aspx)) and [WIQL](https://msdn.microsoft.com/en-us/library/bb130306.c#).
 Ok, let's start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -> New -> Project -> Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:
 
-{% highlight c# %}
+{% source code 1 c# %}
 teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
 
 teamProjectCollection.EnsureAuthenticated();
 
 workItemStore = teamProjectCollection.GetService<WorkItemStore>();
-{% highlight ruby %}
+{% source code 1 c# %}
 
 
 We connect to TFS, ensure we are connected to it, and finally we get the instance of WorkItemStore. It's strange because workItemStore equals null and I don't get more information about it.
@@ -23,9 +23,9 @@ We connect to TFS, ensure we are connected to it, and finally we get the instanc
 
 The way I've found to get more information about this null, is create a new instance of WorkItemStore:
 
-{% highlight c# %}
+{% source code 2 c# %}
 WorkItemStore workItemStore = new WorkItemStore(teamProjectCollection);
-{% highlight ruby %}
+{% source code 2 c# %}
 
 
 In my case seems that I missed some assemblies to reference:
