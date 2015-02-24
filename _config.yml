@@ -28,7 +28,7 @@ author:
 comments :
     provider : disqus
     disqus :
-      short_name : enricforn
+      shortname : enricforn
 
 rss_path: feed.xml
 categories_path: categories.html
