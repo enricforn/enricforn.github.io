@@ -64,6 +64,6 @@ Once I gave write permissions to C:\ProgramData\Microsoft Team Foundation\4.0\Ca
 
 You can find this errors when you install it to a server which is not TFS data tier and without Visual Studio installed either.
 
-Sample code can be found at [Github](https://github.com/enricforn/sampleapplications/tree/master/c%23/TFSUserStoriesConsole). 
+Sample code can be found at [Github](https://github.com/enricforn/sampleapplications/tree/master/csharp/TFSUserStoriesConsole). 
 
 Hope it helps and you save time to solve this problems.
