@@ -16,7 +16,7 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
-script: bundle exec rake travis
+script: bundle exec jekyll build
 
 branches:
   only:
