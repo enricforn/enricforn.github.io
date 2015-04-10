@@ -1,4 +1,4 @@
-Personal blog of Enric Forn
+Personal blog of Enric Forn  ![Travis Status](https://api.travis-ci.org/rowanhogan/jekyll-test.svg)
 ========
 
 Hi there. I'm Enric Forn. I'm working on develop high quality software. Find in this blog my thoughts and experience automating development cycle of distributed software teams.
