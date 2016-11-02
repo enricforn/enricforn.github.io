@@ -48,3 +48,8 @@ First of all you should to keep in mind this point: you need to open TCP port 91
 After port service is opened you can configure the agent by running ./configure.cmd from command line:
 
 ![Configured build agent VSTS]({{ site.url }}/images/Configure-agent-powershell-command.PNG)
+
+In windows environment, create agent as service, allows you to manage service from server without acces to VSTS:
+
+![VSTS Build Agent configured as service]({{ site.url }}/images/Agent-created-as-a-service.PNG)
+
