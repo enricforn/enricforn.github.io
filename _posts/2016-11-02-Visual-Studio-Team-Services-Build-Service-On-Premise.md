@@ -18,7 +18,13 @@ If we must use WinSCP during our release process, then we should to create our o
 
 If we compare build process from TFS2013 and before, the concept is slightly different: Controller instance does not exists, you only define queues and agents. Your queue can be configured as hosted or not. This means that you are using hosted server builds, or you configure agents hosted on premise.
 
+Acces to your admin panel to download the agent:
+
 ![Build Service Configuration]({{ site.url }}/images/download-agent.PNG)
+
+Depending on your platform, download the appropriate agent:
+
+![Download agent depending on your platform]({{ site.url }}/images/download-agent-2.PNG)
 
 Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should securize it.
 
