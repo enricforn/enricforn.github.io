@@ -16,9 +16,9 @@ Ok, let's suppose we want to run [WinSCP](https://winscp.net) from our build pro
 
 If we must use WinSCP during our release process, then we should to create our own build server, in order to set up with all software we need to run in our build process.
 
-If we compare build process from TFS2013 and before, the concept is slightly different: Controller instance does not exists, you only define queues and agents. Your queue can be configured as hosted or not. This means that you are using hosted server builds, or you configure agents hosted on premise.
+If we compare build process from TFS2013 and before, the concept is slightly different: Controller instances do not exists, you only define queues and agents. Your queue can be configured as hosted or not. This means that you are using hosted server builds, or you configure agents hosted on premise.
 
-Acces to your admin panel to download the agent:
+Access your admin panel to download the agent:
 
 ![Build Service Configuration]({{ site.url }}/images/download-agent.PNG)
 
@@ -26,13 +26,13 @@ Depending on your platform, download the appropriate agent:
 
 ![Download agent depending on your platform]({{ site.url }}/images/download-agent-2.PNG)
 
-Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should securize it.
+Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.
 
 #Configure Build Agent in VSTS or TFS15 
 
 If you are using VSTS or TFS15 then download standard image.
 
-Before running the agent configuration, you need to create a personal access token to acces to VSTS:
+Before running the agent configuration, you need to create a personal access token to access for VSTS:
 
 ![Creating a personal access token]({{ site.url }}/images/agent-config-2.PNG)
 
@@ -40,22 +40,22 @@ If you are using VSTS or TFS15 then download standard image and run ./config.cmd
 
 ![Configuring build agent VSTS]({{ site.url }}/images/agent-config-1.PNG)
 
-As you can see in the image below, build agents are configured and running has a green flag. On the right side, you can see a list of builds run:
+As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:
 
 ![Configured build agent VSTS]({{ site.url }}/images/agent-config-3.PNG)
 
 
 #Configure Build Agent in TFS2013
 
-If your VSTS or TFS version is older then you should download legacy version, then step to follow difers a little bit:
+If your VSTS or TFS version is older then you should download the legacy version, and then the following step differs a little bit:
 
 First of all you should to keep in mind this point: you need to open TCP port 9191 in your firewall, in order to allow VSTS to connect to the service installed in you machine.
 
-After port service is opened you can configure the agent by running ./configure.cmd from command line:
+After the port service is opened you can configure the agent by running ./configure.cmd from command line:
 
 ![Configured build agent VSTS]({{ site.url }}/images/Configure-agent-powershell-command.PNG)
 
-In windows environment, create agent as service, allows you to manage service from server without acces to VSTS:
+In windows environment, create agent as service, allows you to manage service from server without access to VSTS:
 
 ![VSTS Build Agent configured as service]({{ site.url }}/images/Agent-created-as-a-service.PNG)
 
