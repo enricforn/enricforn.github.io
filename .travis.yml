@@ -17,6 +17,8 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
+  - bundle update github-pages
+
 script: bundle exec jekyll build
 
 branches:
