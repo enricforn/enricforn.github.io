@@ -1,7 +1,7 @@
 # .travis.yml
 
 language: ruby
-rvm: 2.1.1
+rvm: 2.6.3
 
 install:
   # Install binary pandoc from Rstudio
