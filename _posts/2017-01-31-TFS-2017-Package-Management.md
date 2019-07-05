@@ -3,7 +3,7 @@ layout: post
 title: TFS 2017 Package Management Feature for npm
 categories: [TFS, ALM, npm]
 tags: [TFS, Package Management, ALM, npm]
-description: Using Visual Studio Package management for npm feature ?
+image: /images/posts/tfs-package-management/header.png
 ---
 
 In this post I'll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuGet (.NET libraries) and npm (javascript libraries).

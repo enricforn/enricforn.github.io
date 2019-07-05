@@ -3,7 +3,7 @@ layout: post
 title: Intro DevOps
 categories: [DevOps]
 tags: [development, software]
-description: Intro DevOps
+image: /images/posts/intro-devops/header.png
 ---
 
 Really excited for take part of this [meet up](https://www.meetup.com/IGD-Tech-Drinks/events/255421279/).
