@@ -10,7 +10,7 @@ title: Software engineering experiencies related blog
 email: enricfj@gmail.com
 description: Enric Forn  Innovation and Engineering Manager
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'http://enricforn.gihub.io/' # The base hostname & protocol for your site
+url:              'https://enricforn.gihub.io/' # The base hostname & protocol for your site
 github_username:  enricforn
 twitter_username: eforn
 linkedin_username: in/enricforn
@@ -52,7 +52,7 @@ authors:
     name: Enric Forn
     display_name: Enric Forn
     bio: Software development, software automation, DevOps, Learning, distributed teams
-    gravatar: http://www.gravatar.com/avatar/{{e4306225c5593de4b39fa7f66d49f81b}}?s=35
+    gravatar: https://www.gravatar.com/avatar/{{e4306225c5593de4b39fa7f66d49f81b}}?s=35
     linkedin: enricforn
     github: enricforn
     twitter: eforn
