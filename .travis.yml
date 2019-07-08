@@ -17,7 +17,7 @@ install:
   # Install Jekyll and dependencies
   - gem install jekyll
   
-  - gem html-proofer
+  - gem install html-proofer
 
   - bundle install
 
