@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software engineering experiencies related blog</title>
+    <description>Enric Forn  Innovation and Engineering Manager</description>
+    <link>http://enricforn.gihub.io//</link>
+    <atom:link href="http://enricforn.gihub.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 05 Jul 2019 19:00:50 +0200</pubDate>
+    <lastBuildDate>Fri, 05 Jul 2019 19:00:50 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+
+    
+      <item>
+        <title>Intro DevOps</title>
+        <description>&lt;p&gt;Really excited for take part of this &lt;a href=&quot;https://www.meetup.com/IGD-Tech-Drinks/events/255421279/&quot;&gt;meet up&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m so happy for having the chance of talking about DevOps, it seems many people is interested on this movement.&lt;/p&gt;
+
+&lt;p&gt;You can take a look at this support &lt;a href=&quot;https://slides.com/enricforn/what-is-devops&quot;&gt;Intro DevOPs&lt;/a&gt; I used to guide my speech.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Oct 2018 00:00:00 +0200</pubDate>
+        <link>http://enricforn.gihub.io//devops/2018/10/24/intro-devops/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//devops/2018/10/24/intro-devops/</guid>
+      </item>
+    
+      <item>
+        <title>How to measure a Team performance</title>
+        <description>&lt;h3 id=&quot;this-article-describes-which-metrics-you-should-choose-to-measure-how-fast-can-your-development-team-deliver-software-and-what-quality-does-that-deliverable&quot;&gt;This article describes which metrics you should choose to measure how fast can your development team deliver software, and what quality does that deliverable&lt;/h3&gt;
+
+&lt;p&gt;Here follows  key metrics to measure your team performance to delivery valued features of a product.&lt;/p&gt;
+
+&lt;p&gt;Deployment frequency: how often you deploy code to production environment.&lt;/p&gt;
+
+&lt;p&gt;Lead time for changes: how long does it take to go from code commit to code successfully running in production&lt;/p&gt;
+
+&lt;p&gt;Mean time to recover: average time need to recover your service from an incident like unplanned outage.&lt;/p&gt;
+
+&lt;p&gt;Change failure rate: what percentage of changes results either in degraded service or subsequently requires remediation&lt;/p&gt;
+
+&lt;p&gt;You can get this metrics by using tools to orchestrate your SDLC in a DevOps pipeline. Using tools such git as a SCM, CI/CD tool like Jenkins, monitoring your system with New Relic and tracing your developments in Jira.&lt;/p&gt;
+
+&lt;p&gt;Microsoft solution should be based in Visual Studio Team Services, which offers you a fully integrated ecosystem to implement your pipeline, and Azure to deploy and monitor your system.&lt;/p&gt;
+
+&lt;p&gt;The following metric is also really interested, but is focused on the performance of individuals:&lt;/p&gt;
+
+&lt;p&gt;Team Morale: is the enthusiasm and persistence with which a member of a team engages in the prescribed activities of that group’ (Manning, 1991)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Oct 2018 00:00:00 +0200</pubDate>
+        <link>http://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</guid>
+      </item>
+    
+      <item>
+        <title>Windows Server 2016 - install telnet from command-line</title>
+        <description>&lt;h3 id=&quot;the-easiest-and-fastest-way-to-install-telnet-to-a-windows-server-2016-from-command-line&quot;&gt;The easiest and fastest way to install telnet to a Windows Server 2016 from command-line&lt;/h3&gt;
+
+&lt;p&gt;When trying to solve some kind of conectivity problem, I often use telnet. By default, windows machine do not preinstall telnet:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+C:\&amp;gt;telnet google.com 80
+&#39;telnet&#39; is not recognized as an internal or external command, operable program or batch file.
+C:\&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can easily install telnet from command-line with this short command:&lt;/p&gt;
+
+&lt;p&gt;From standard command prompt command-line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+dism /online /Enable-Feature /FeatureName:TelnetClient
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;From powershell console:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+Install-WindowsFeature -name Telnet-Client
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
+      </item>
+    
+      <item>
+        <title>TFS 2017 Package Management Feature for npm</title>
+        <description>&lt;p&gt;In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuGet (.NET libraries) and npm (javascript libraries).&lt;/p&gt;
+
+&lt;p&gt;While you code your applications, you probably want to share libraries with other teams, in order to reuse code. Also you should supervise dependencies used by your applications, and you can reduce dependencies between them or avoid multiples packages doing the same action.&lt;/p&gt;
+
+&lt;p&gt;To solve the first problem, you need to encapsule your code and then you can share that capsule. To solve de second problem, you need under control which dependencies can install the applications&lt;/p&gt;
+
+&lt;p&gt;If you are using Visual Studio Team Services you can use (&lt;a href=&quot;https://www.visualstudio.com/en-us/docs/package/overview&quot;&gt;Package Management feature&lt;/a&gt;) feature to store your packages. It supports two kinds of packages: npm and NuGet. I hope Package Management will support docker images in earlier versions.&lt;/p&gt;
+
+&lt;p&gt;Let’s go configuring a npm package repo:&lt;/p&gt;
+
+&lt;p&gt;Go to Package management feature, and add a new feed:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feed creation allows you to configure some options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Name and Description for this repository.&lt;/li&gt;
+  &lt;li&gt;Read permissions to this repository: only team members, or all members in the collection.&lt;/li&gt;
+  &lt;li&gt;Contribute permissions: who can upload packages to this repository, team members or only project collection build service. This permission try to force the upload of packages from a build process.&lt;/li&gt;
+  &lt;li&gt;Enabling check ‘Include packages from npmjs.org’,  uses npmjs.org as a secondary scoped registry. It’s interesting when you want to use private packages and public packages from npmjs.org.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have create your repository, you can connect to it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can choose whether the access is through NuGet or npm. In this example we choose npm:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open a command-line.&lt;/li&gt;
+  &lt;li&gt;Install the auth helper by running this command: ‘npm install -g vsts-npm-auth –registry https://registry.npmjs.com’&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
+          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
+          always-auth=true
+&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
+          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
+          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
+&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s highly recommended to create two files:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One at the root project that contains the configuration for the whole team.&lt;/li&gt;
+  &lt;li&gt;Another one to your home profile folder containing the your credentials in a secure mode.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now your package is ready for being installed to any application.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy sharing code from your feeds with your colleagues!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
+      </item>
+    
+      <item>
+        <title>Install AWSCli on windows</title>
+        <description>&lt;h3 id=&quot;this-post-describe-how-to-install-awscli-on-windows-and-how-to-solve-encountered-issues&quot;&gt;This post describe how to install AWSCli on windows, and how to solve encountered issues&lt;/h3&gt;
+
+&lt;p&gt;Amazon Web Services is a great cloud environment. Personnally I’m using its S3 service (&lt;a href=&quot;http://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html&quot;&gt;Simple Storage Service&lt;/a&gt;) to backup all my information. It’s really cheap and easy to access.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;https://aws.amazon.com/es/cli/&quot;&gt;AWSCli&lt;/a&gt; to interact with amazon web services. Most of actions you can do with their web console, can also be run from awscli.&lt;/p&gt;
+
+&lt;p&gt;I just downloaded the application and installed it. Apparently is very easy, the install application is an easy wizard. After that, I opened a powershell console and configure a default credentials to access to my AWS account:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open powershell console (powershell.exe).&lt;/li&gt;
+  &lt;li&gt;Run command ‘aws configure’. This command ask you credentials to access to AWS:
+    &lt;ul&gt;
+      &lt;li&gt;Access Key Id: This key&lt;/li&gt;
+      &lt;li&gt;Secret Access Key: Key showed only when you create the user.&lt;/li&gt;
+      &lt;li&gt;Default Region: in my case eu-west-1&lt;/li&gt;
+      &lt;li&gt;Default output format: I chose json&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It seems everything works fine, but when I ran the next command (aws s3 cp s://mybucket D:\data\mybucket.) the following error appears:&lt;/p&gt;
+
+&lt;p&gt;C:\Program Files\Amazon\AWSCLI.\dateutil\parser.py:336: UnicodeWarning: Unicode  equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal&lt;/p&gt;
+
+&lt;p&gt;This is an error with python 2.7.9 version, which was solved in earlier versions of python. And this is the python version that awscli installs to run properly.&lt;/p&gt;
+
+&lt;p&gt;You can run command ‘aws –version’ to know which version of python is using your installed awscli:&lt;/p&gt;
+
+&lt;p&gt;PS C:\Users\enric&amp;gt; aws –version
+aws-cli/1.11.38 Python/2.7.9 Windows/10 botocore/1.5.1&lt;/p&gt;
+
+&lt;p&gt;Trying to solve this issue, I started to find a solution in google. And I found an opened issue in &lt;a href=&quot;https://github.com/aws/aws-cli/issues/424&quot;&gt;github awscli&lt;/a&gt;. I hope AWS guys will solve it in the next version :). There I found the workaround to solve this issue:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uninstall AWSCli from my machine.&lt;/li&gt;
+  &lt;li&gt;Install the latest version of python.&lt;/li&gt;
+  &lt;li&gt;Install awscli from python 3 installer: open a powershell console. Run commmand ‘pip install awscli’.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, the awscli installed on my machine, is using a newer version of python and works fine:&lt;/p&gt;
+
+&lt;p&gt;PS C:\Users\enric&amp;gt; aws –version
+aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
+
+&lt;p&gt;If you encounter the same issue, hope this helps.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
+      </item>
+    
+      <item>
+        <title>Configure on premise build server to Visual Studio Team Services</title>
+        <description>&lt;h3 id=&quot;describing-on-how-to-connect-your-build-server-to-a-team-project-on-visual-studio-team-services&quot;&gt;Describing on how to connect your Build server to a team project on Visual Studio Team Services&lt;/h3&gt;
+
+&lt;p&gt;In this post I suppose you are familiar to Visual Studio Team Services (from now VSTS). I’m gonna explain briefly how you can configure your own build server hosted on premise.&lt;/p&gt;
+
+&lt;p&gt;Build service is the feature from Visual Studio Team Services to automate your build process. Build service allows you to build your code, and run several tasks to assure your code quality. After this process you can create a release definition and deploy it to your environments. You can use a hosted build controller to run a build process after you check-in to source control (&lt;a href=&quot;https://www.visualstudio.com/docs/tfvc/overview&quot;&gt;TFVC&lt;/a&gt; or &lt;a href=&quot;https://www.visualstudio.com/en-us/docs/git/gitquickstart&quot;&gt;GIT&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;You can configure your project to build automatically by following this &lt;a href=&quot;https://www.visualstudio.com/en-us/docs/build/get-started/dot-net&quot;&gt;guide&lt;/a&gt;. This example is based on a standard .NET for Windows application, but VSTS Build can support any language and platform.&lt;/p&gt;
+
+&lt;p&gt;Ok, let’s suppose we want to run &lt;a href=&quot;https://winscp.net&quot;&gt;WinSCP&lt;/a&gt; from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this &lt;a href=&quot;http://listofsoftwareontfshostedbuildserver.azurewebsites.net/&quot;&gt;list of software&lt;/a&gt;. WinSCP is not installed on hosted build servers.&lt;/p&gt;
+
+&lt;p&gt;If we must use WinSCP during our release process, then we should to create our own build server, in order to set up with all software we need to run in our build process.&lt;/p&gt;
+
+&lt;p&gt;If we compare build process from TFS2013 and before, the concept is slightly different: Controller instances do not exists, you only define queues and agents. Your queue can be configured as hosted or not. This means that you are using hosted server builds, or you configure agents hosted on premise.&lt;/p&gt;
+
+&lt;p&gt;Access your admin panel to download the agent:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on your platform, download the appropriate agent:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.&lt;/p&gt;
+
+&lt;h1 id=&quot;configure-build-agent-in-vsts-or-tfs15&quot;&gt;Configure Build Agent in VSTS or TFS15&lt;/h1&gt;
+
+&lt;p&gt;If you are using VSTS or TFS15 then download standard image.&lt;/p&gt;
+
+&lt;p&gt;Before running the agent configuration, you need to create a personal access token to access for VSTS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;configure-build-agent-in-tfs2013&quot;&gt;Configure Build Agent in TFS2013&lt;/h1&gt;
+
+&lt;p&gt;If your VSTS or TFS version is older then you should download the legacy version, and then the following step differs a little bit:&lt;/p&gt;
+
+&lt;p&gt;First of all you should to keep in mind this point: you need to open TCP port 9191 in your firewall, in order to allow VSTS to connect to the service installed in you machine.&lt;/p&gt;
+
+&lt;p&gt;After the port service is opened you can configure the agent by running ./configure.cmd from command line:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In windows environment, create agent as service, allows you to manage service from server without access to VSTS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 02 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
+      </item>
+    
+      <item>
+        <title>Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore</title>
+        <description>&lt;h3 id=&quot;how-to-connect-to-tfs-or-visual-studio-online-through-api-and-get-workitemstore-service-brief-description-of-encountered-issues-and-how-to-solve-them&quot;&gt;How to connect to TFS or Visual Studio online through API and get WorkItemStore service. Brief description of encountered issues and how to solve them.&lt;/h3&gt;
+
+&lt;p&gt;In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to &lt;a href=&quot;http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx&quot;&gt;TFS&lt;/a&gt;, and you are used to work with &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/hh409275.aspx&quot;&gt;WorkItems&lt;/a&gt;) and &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/bb130306.c#&quot;&gt;WIQL&lt;/a&gt;.
+Ok, let’s start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -&amp;gt; New -&amp;gt; Project -&amp;gt; Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
+
+     teamProjectCollection.EnsureAuthenticated();
+
+     workItemStore = teamProjectCollection.GetService&amp;lt;WorkItemStore&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We connect to TFS, ensure we are connected to it, and finally we get the instance of WorkItemStore. It’s strange because workItemStore equals null and I don’t get more information about it.&lt;/p&gt;
+
+&lt;p&gt;The way I’ve found to get more information about this null, is create a new instance of WorkItemStore:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     WorkItemStore workItemStore = new WorkItemStore(teamProjectCollection);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In my case seems that I missed some assemblies to reference:&lt;/p&gt;
+
+&lt;p&gt;Type: System.IO.FileNotFoundException
+Message: Could not load file or assembly ‘Microsoft.TeamFoundation.WorkItemTracking.Proxy, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a’ or one of its dependencies. The system cannot find the file specified.
+Source: Microsoft.TeamFoundation.WorkItemTracking.Client
+StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.InitializeInternal()
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.Microsoft.TeamFoundation.Client.ITfsTeamProjectCollectionObject.Initialize(TfsTeamProjectCollection teamProjectCollection)
+   at Microsoft.TeamFoundation.Client.TfsTeamProjectCollection.InitializeTeamFoundationObject(String fullName, Object instance)
+   at Microsoft.TeamFoundation.Client.TfsConnection.CreateServiceInstance(Assembly assembly, String fullName)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetServiceInstance(Type serviceType, Object serviceInstance)
+   at Microsoft.TeamFoundation.Client.TfsTeamProjectCollection.GetServiceInstance(Type serviceType, Object serviceInstance)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetService(Type serviceType)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetService&lt;a href=&quot;&quot;&gt;T&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, much easier getting a stacktrace to solve the problem. I added that reference, but I get another error:&lt;/p&gt;
+
+&lt;p&gt;Message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Source: Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader
+StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.DataStoreNative.UpdateMetadata(IntPtr handle, Object rowset, String dbstamp, UInt32&amp;amp; changes)
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Datastore.UpdateMetadata(Object rowset, String dbstamp)
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.EndBackendCall(BackendCallData data)
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.RefreshCacheInternal(BackendCallData&amp;amp; data)
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.InitializeInternal()
+   at Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore.Microsoft.TeamFoundation.Client.ITfsTeamProjectCollectionObject.Initialize(TfsTeamProjectCollection teamProjectCollection)
+   at Microsoft.TeamFoundation.Client.TfsTeamProjectCollection.InitializeTeamFoundationObject(String fullName, Object instance)
+   at Microsoft.TeamFoundation.Client.TfsConnection.CreateServiceInstance(Assembly assembly, String fullName)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetServiceInstance(Type serviceType, Object serviceInstance)
+   at Microsoft.TeamFoundation.Client.TfsTeamProjectCollection.GetServiceInstance(Type serviceType, Object serviceInstance)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetService(Type serviceType)
+   at Microsoft.TeamFoundation.Client.TfsConnection.GetService&lt;a href=&quot;&quot;&gt;T&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case I monitor the process with &lt;a href=&quot;https://technet.microsoft.com/en-us/sysinternals/bb896645&quot;&gt;FileMon&lt;/a&gt; and the process ends with an access denied to folder   C:\ProgramData\Microsoft Team Foundation\4.0\Cache&lt;/p&gt;
+
+&lt;p&gt;Once I gave write permissions to C:\ProgramData\Microsoft Team Foundation\4.0\Cache the application runs properly.&lt;/p&gt;
+
+&lt;p&gt;You can find this errors when you install it to a server which is not TFS data tier and without Visual Studio installed either.&lt;/p&gt;
+
+&lt;p&gt;Sample code can be found at &lt;a href=&quot;https://github.com/enricforn/sampleapplications/tree/master/csharp/TFSUserStoriesConsole&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hope it helps and you save time to solve this problems.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
+      </item>
+    
+      <item>
+        <title>Welcome</title>
+        <description>&lt;p&gt;Hi all. Welcome to personal blog of Enric Forn. I will write in english, but also in catalan or spanish language. I will post about software engineering, software automation and distributed teams.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Feb 2015 00:00:00 +0100</pubDate>
+        <link>http://enricforn.gihub.io//general/2015/02/21/welcome/</link>
+        <guid isPermaLink="true">http://enricforn.gihub.io//general/2015/02/21/welcome/</guid>
+      </item>
+    
+
+    
+      
+        
+          <item>
+            <title></title>
+            <description>&lt;!----------------------------------------------------------------
+     _ _           _ _          
+  __| | |__  _   _| | |         Ascii arts included in this page:
+ / _` | &#39;_ \| | | | | |         - R2D2, provided by: http://www.chris.com/
+| (_| | |_) | |_| | | |         - Texts, generated from: http://www.network-science.de/ascii/
+ \__,_|_.__/ \__, |_|_|         http://github.com/dbtek/dbyll
+-------------|___/------------------------------------------------&gt;
+
+  &lt;style&gt;
+    pre {
+          background: none;
+          border: none;
+    }
+  &lt;/style&gt;
+
+  &lt;pre&gt;
+
+                       444444444       000000000            444444444   
+                      4::::::::4     00:::::::::00         4::::::::4  
+                     4:::::::::4   00:::::::::::::00      4:::::::::4  
+                    4::::44::::4  0:::::::000:::::::0    4::::44::::4  
+                   4::::4 4::::4  0::::::0   0::::::0   4::::4 4::::4  
+                  4::::4  4::::4  0:::::0     0:::::0  4::::4  4::::4  
+                 4::::4   4::::4  0:::::0     0:::::0 4::::4   4::::4  
+                4::::444444::::4440:::::0 000 0:::::04::::444444::::444
+                4::::::::::::::::40:::::0 000 0:::::04::::::::::::::::4
+                4444444444:::::4440:::::0     0:::::04444444444:::::444
+                          4::::4  0:::::0     0:::::0          4::::4  
+                          4::::4  0::::::0   0::::::0          4::::4  
+                          4::::4  0:::::::000:::::::0          4::::4  
+                        44::::::44 00:::::::::::::00         44::::::44
+                        4::::::::4   00:::::::::00           4::::::::4
+                        4444444444     000000000             4444444444
+
+         ,-----.             _   _     _           _                 _     _               _   
+       ,&#39;_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
+      /&lt;&lt;::8[O]::&gt;\         | __| &#39;_ \| / __| / __| &#39;_ \ / _ \| | | | |/ _` | | &#39;_ \ / _ \| __|
+     _|-----------|_        | |_| | | | \__ \ \__ \ | | | (_) | |_| | | (_| | | | | | (_) | |_ 
+ :::|  | ====-=- |  |:::     \__|_| |_|_|___/ |___/_| |_|\___/ \__,_|_|\__,_| |_| |_|\___/ \__|
+ :::|  | -=-==== |  |:::                                                                         
+ :::\  | ::::|()||  /:::     _                                                          
+ ::::| | ....|()|| |::::    | |__   __ _ _ __  _ __   ___ _ __       _____   _____ _ __ 
+     | |_________| |        | &#39;_ \ / _` | &#39;_ \| &#39;_ \ / _ \ &#39;_ \     / _ \ \ / / _ \ &#39;__|
+     | |\_______/| |        | | | | (_| | |_) | |_) |  __/ | | |_  |  __/\ V /  __/ |   
+    /   \ /   \ /   \       |_| |_|\__,_| .__/| .__/ \___|_| |_( )  \___| \_/ \___|_|   
+    `---&#39; `---&#39; `---&#39;                   |_|   |_|              |/                       
+
+
+    &lt;/pre&gt;</description>
+            <link>http://enricforn.gihub.io//404.html</link>
+          </item>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <item>
+            <title>About</title>
+            <description>&lt;p&gt;Love mountain-biking and montaineering. Learning how to improve software development.&lt;/p&gt;
+</description>
+            <link>http://enricforn.gihub.io//about.html</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+  </channel>
+</rss>
