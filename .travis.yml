@@ -15,14 +15,23 @@ install:
   # - pandoc --version
 
   # Install Jekyll and dependencies
-  - gem update github-pages
+  - gem install jekyll
   
+  - gem install html-proofer
+
   - bundle install
 
-  - bundle update github-pages
-
 script: bundle exec jekyll build
+        bundle exec htmlproofer ./_site
 
 branches:
   only:
     - master
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
