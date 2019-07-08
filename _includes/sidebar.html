@@ -1,63 +1,85 @@
-<! -- sidebar.html -->
-<header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
-		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
-	</a>
-	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
-</header>
+<div class="sidebar">
+  <div class="row">
 
-{% if site.author.bio %}
-<div id="bio" class="text-center">
-	{{ site.author.bio }}
-</div>
-{% endif %}
+    <div class="column small-10 large-12">
+      <h1 class="sidebar__logo logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <div class="sidebar__description font-small">{{ site.description }}</div>
+    </div>
 
-<div id="contact-list" class="text-center">
-	<ul class="list-unstyled list-inline">
-		{% if site.author.github %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
-				<i class="fa fa-github-alt fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.twitter %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.email %}
-		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fa fa-envelope fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-		{% if site.author.pinterest %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
-				<i class="fa fa-pinterest fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-				<i class="fa fa-rss fa-lg"></i>
-			</a>
-		</li>
-	</ul>
+    <label class="off-canvas-toggle"><span data-icon="ei-navicon" data-size="s"></span></label>
+
+    <div class="off-canvas-content">
+
+      <div class="column small-12 large-12">
+        <nav class="navigation">
+          <ul class="list-bare text-center">
+            {% for page in site.pages %}
+              {% unless page.name == '404.md' %}
+                {% if page.title %}
+                  <li>
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                  </li>
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+            <li><a class="subscribe-button icon-feed" href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="column small-12 large-12">
+        <ul class="social-nav social-icons">
+          {% if site.linkedin_username %}
+          <li>
+            <a href="http://www.linkedin.com/{{ site.linkedin_username }}" target="_blank">
+              <span data-icon="ei-sc-linkedin" data-size="s"></span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            <a href="http://www.github.com/{{ site.github_username }}" target="_blank">
+              <span data-icon="ei-sc-github" data-size="s"></span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+              <span data-icon="ei-sc-twitter" data-size="s"></span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.email %}
+          <li>
+            <a href="mailto:{{ site.email }}" target="_blank">
+              <span data-icon="ei-envelope" data-size="s"></span>
+            </a>
+          </li>
+          {% endif %}
+
+          <li>
+            <a class="toggle-search-button" href="#">
+              <span data-icon="ei-search" data-size="s"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__bottom">
+        <div class="column small-12 large-12">
+          <div class="font-tiny">
+            &copy; {{ site.time | date: '%Y' }} Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+          </div>
+        </div>
+      </div>
+      
+    </div> <!-- off-canvas-content -->
+
+  </div>
 </div>
-<! -- sidebar.html end -->
+
+{% include search-form.html %}

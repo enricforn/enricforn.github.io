@@ -3,8 +3,10 @@ layout: post
 title: How to measure a Team performance
 categories: [process]
 tags: [performance, metrics]
-description: Which metrics you should choose to measure how fast can your development team deliver software, and what quality does that deliverable
+image: /images/posts/measure-team-performance/header.jpeg
 ---
+
+###This article describes which metrics you should choose to measure how fast can your development team deliver software, and what quality does that deliverable
 
 Here follows  key metrics to measure your team performance to delivery valued features of a product.
 
