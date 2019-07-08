@@ -5,6 +5,6 @@ Hi there. I'm Enric Forn. I'm working on develop high quality software. Find in 
 
 ---
 
-Tweet at [@eforn](https://twitter.com/eforn), read my code on [GitHub](http://github.com/enricforn), find my CV on [LinkedIn](http://uk.linkedin.com/in/enricforn).
+Tweet at [@eforn](https://twitter.com/eforn), read my code on [GitHub](https://github.com/enricforn), find my CV on [LinkedIn](https://uk.linkedin.com/in/enricforn).
 
 ---

@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore</title>
   <meta name="description" content="In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an inst...">
-  <link rel="canonical" href="http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html">
-  <link rel="alternate" type="application/rss+xml" title="enricforn.github.io" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="https://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html">
+  <link rel="alternate" type="application/rss+xml" title="enricforn.github.io" href="https://localhost:4000/feed.xml">
 
   <style type="text/css">
     
@@ -703,7 +703,7 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
     </div>
 
     <div class="column column--center medium-12 large-10">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
         
 
@@ -713,7 +713,7 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
         </header>
 
         <div class="post-content" itemprop="articleBody">
-          <p>In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to <a href="http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx">TFS</a>, and you are used to work with <a href="https://msdn.microsoft.com/en-us/library/hh409275.aspx">WorkItems</a>) and <a href="https://msdn.microsoft.com/en-us/library/bb130306.c#">WIQL</a>.
+          <p>In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to <a href="https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx">TFS</a>, and you are used to work with <a href="https://msdn.microsoft.com/en-us/library/hh409275.aspx">WorkItems</a>) and <a href="https://msdn.microsoft.com/en-us/library/bb130306.c#">WIQL</a>.
 Ok, let’s start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -&gt; New -&gt; Project -&gt; Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
@@ -786,17 +786,17 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 <ul class="share-list">
   <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore&url=http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore&url=https://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
       <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html" rel="nofollow" target="_blank" title="Share on Facebook">
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=https://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html" rel="nofollow" target="_blank" title="Share on Facebook">
     <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html" rel="nofollow" target="_blank" title="Share on Google+">
+    <a class="share-list__link" href="https://plus.google.com/share?url=https://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html" rel="nofollow" target="_blank" title="Share on Google+">
     <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
     </a>
   </li>
@@ -827,7 +827,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 <script>
   var disqus_config = function () {
-    this.page.url = "http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html";
+    this.page.url = "https://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs.html";
   };
 
   (function() {

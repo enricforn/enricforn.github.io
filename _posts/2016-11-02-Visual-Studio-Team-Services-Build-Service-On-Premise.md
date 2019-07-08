@@ -15,7 +15,7 @@ Build service is the feature from Visual Studio Team Services to automate your b
 
 You can configure your project to build automatically by following this [guide](https://www.visualstudio.com/en-us/docs/build/get-started/dot-net). This example is based on a standard .NET for Windows application, but VSTS Build can support any language and platform.
 
-Ok, let's suppose we want to run [WinSCP](https://winscp.net) from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this [list of software](http://listofsoftwareontfshostedbuildserver.azurewebsites.net/). WinSCP is not installed on hosted build servers.
+Ok, let's suppose we want to run [WinSCP](https://winscp.net) from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this [list of software](https://listofsoftwareontfshostedbuildserver.azurewebsites.net/). WinSCP is not installed on hosted build servers.
 
 If we must use WinSCP during our release process, then we should to create our own build server, in order to set up with all software we need to run in our build process.
 

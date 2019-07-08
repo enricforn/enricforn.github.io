@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Software engineering experiencies related blog</title>
     <description>Enric Forn  Innovation and Engineering Manager</description>
-    <link>http://enricforn.gihub.io//</link>
-    <atom:link href="http://enricforn.gihub.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://enricforn.gihub.io//</link>
+    <atom:link href="https://enricforn.gihub.io//feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Fri, 05 Jul 2019 19:00:50 +0200</pubDate>
     <lastBuildDate>Fri, 05 Jul 2019 19:00:50 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
@@ -19,8 +19,8 @@
 &lt;p&gt;You can take a look at this support &lt;a href=&quot;https://slides.com/enricforn/what-is-devops&quot;&gt;Intro DevOPs&lt;/a&gt; I used to guide my speech.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Oct 2018 00:00:00 +0200</pubDate>
-        <link>http://enricforn.gihub.io//devops/2018/10/24/intro-devops/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//devops/2018/10/24/intro-devops/</guid>
+        <link>https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</guid>
       </item>
     
       <item>
@@ -46,8 +46,8 @@
 &lt;p&gt;Team Morale: is the enthusiasm and persistence with which a member of a team engages in the prescribed activities of that group’ (Manning, 1991)&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +0200</pubDate>
-        <link>http://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</guid>
+        <link>https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</guid>
       </item>
     
       <item>
@@ -79,8 +79,8 @@ Install-WindowsFeature -name Telnet-Client
 &lt;p&gt;Have fun!&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
+        <link>https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
       </item>
     
       <item>
@@ -97,7 +97,7 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Go to Package management feature, and add a new feed:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Feed creation allows you to configure some options:&lt;/p&gt;
 
@@ -110,7 +110,7 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Once you have create your repository, you can connect to it:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can choose whether the access is through NuGet or npm. In this example we choose npm:&lt;/p&gt;
 
@@ -121,14 +121,14 @@ Install-WindowsFeature -name Telnet-Client
     &lt;p&gt;Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
           always-auth=true
-&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;It’s highly recommended to create two files:&lt;/p&gt;
@@ -140,24 +140,24 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now your package is ready for being installed to any application.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Enjoy sharing code from your feeds with your colleagues!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
+        <link>https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
       </item>
     
       <item>
         <title>Install AWSCli on windows</title>
         <description>&lt;h3 id=&quot;this-post-describe-how-to-install-awscli-on-windows-and-how-to-solve-encountered-issues&quot;&gt;This post describe how to install AWSCli on windows, and how to solve encountered issues&lt;/h3&gt;
 
-&lt;p&gt;Amazon Web Services is a great cloud environment. Personnally I’m using its S3 service (&lt;a href=&quot;http://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html&quot;&gt;Simple Storage Service&lt;/a&gt;) to backup all my information. It’s really cheap and easy to access.&lt;/p&gt;
+&lt;p&gt;Amazon Web Services is a great cloud environment. Personnally I’m using its S3 service (&lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html&quot;&gt;Simple Storage Service&lt;/a&gt;) to backup all my information. It’s really cheap and easy to access.&lt;/p&gt;
 
 &lt;p&gt;I use &lt;a href=&quot;https://aws.amazon.com/es/cli/&quot;&gt;AWSCli&lt;/a&gt; to interact with amazon web services. Most of actions you can do with their web console, can also be run from awscli.&lt;/p&gt;
 
@@ -202,8 +202,8 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 &lt;p&gt;If you encounter the same issue, hope this helps.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
+        <link>https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
       </item>
     
       <item>
@@ -216,7 +216,7 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;You can configure your project to build automatically by following this &lt;a href=&quot;https://www.visualstudio.com/en-us/docs/build/get-started/dot-net&quot;&gt;guide&lt;/a&gt;. This example is based on a standard .NET for Windows application, but VSTS Build can support any language and platform.&lt;/p&gt;
 
-&lt;p&gt;Ok, let’s suppose we want to run &lt;a href=&quot;https://winscp.net&quot;&gt;WinSCP&lt;/a&gt; from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this &lt;a href=&quot;http://listofsoftwareontfshostedbuildserver.azurewebsites.net/&quot;&gt;list of software&lt;/a&gt;. WinSCP is not installed on hosted build servers.&lt;/p&gt;
+&lt;p&gt;Ok, let’s suppose we want to run &lt;a href=&quot;https://winscp.net&quot;&gt;WinSCP&lt;/a&gt; from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this &lt;a href=&quot;https://listofsoftwareontfshostedbuildserver.azurewebsites.net/&quot;&gt;list of software&lt;/a&gt;. WinSCP is not installed on hosted build servers.&lt;/p&gt;
 
 &lt;p&gt;If we must use WinSCP during our release process, then we should to create our own build server, in order to set up with all software we need to run in our build process.&lt;/p&gt;
 
@@ -224,11 +224,11 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;Access your admin panel to download the agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Depending on your platform, download the appropriate agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.&lt;/p&gt;
 
@@ -238,15 +238,15 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;Before running the agent configuration, you need to create a personal access token to access for VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;configure-build-agent-in-tfs2013&quot;&gt;Configure Build Agent in TFS2013&lt;/h1&gt;
 
@@ -256,23 +256,23 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;After the port service is opened you can configure the agent by running ./configure.cmd from command line:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In windows environment, create agent as service, allows you to manage service from server without access to VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://enricforn.gihub.io//images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 02 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
+        <link>https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
       </item>
     
       <item>
         <title>Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore</title>
         <description>&lt;h3 id=&quot;how-to-connect-to-tfs-or-visual-studio-online-through-api-and-get-workitemstore-service-brief-description-of-encountered-issues-and-how-to-solve-them&quot;&gt;How to connect to TFS or Visual Studio online through API and get WorkItemStore service. Brief description of encountered issues and how to solve them.&lt;/h3&gt;
 
-&lt;p&gt;In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to &lt;a href=&quot;http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx&quot;&gt;TFS&lt;/a&gt;, and you are used to work with &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/hh409275.aspx&quot;&gt;WorkItems&lt;/a&gt;) and &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/bb130306.c#&quot;&gt;WIQL&lt;/a&gt;.
+&lt;p&gt;In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to &lt;a href=&quot;https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx&quot;&gt;TFS&lt;/a&gt;, and you are used to work with &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/hh409275.aspx&quot;&gt;WorkItems&lt;/a&gt;) and &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/bb130306.c#&quot;&gt;WIQL&lt;/a&gt;.
 Ok, let’s start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -&amp;gt; New -&amp;gt; Project -&amp;gt; Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
@@ -333,8 +333,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 &lt;p&gt;Hope it helps and you save time to solve this problems.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
+        <link>https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
       </item>
     
       <item>
@@ -342,8 +342,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
         <description>&lt;p&gt;Hi all. Welcome to personal blog of Enric Forn. I will write in english, but also in catalan or spanish language. I will post about software engineering, software automation and distributed teams.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Feb 2015 00:00:00 +0100</pubDate>
-        <link>http://enricforn.gihub.io//general/2015/02/21/welcome/</link>
-        <guid isPermaLink="true">http://enricforn.gihub.io//general/2015/02/21/welcome/</guid>
+        <link>https://enricforn.gihub.io//general/2015/02/21/welcome/</link>
+        <guid isPermaLink="true">https://enricforn.gihub.io//general/2015/02/21/welcome/</guid>
       </item>
     
 
@@ -355,9 +355,9 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <description>&lt;!----------------------------------------------------------------
      _ _           _ _          
   __| | |__  _   _| | |         Ascii arts included in this page:
- / _` | &#39;_ \| | | | | |         - R2D2, provided by: http://www.chris.com/
-| (_| | |_) | |_| | | |         - Texts, generated from: http://www.network-science.de/ascii/
- \__,_|_.__/ \__, |_|_|         http://github.com/dbtek/dbyll
+ / _` | &#39;_ \| | | | | |         - R2D2, provided by: https://www.chris.com/
+| (_| | |_) | |_| | | |         - Texts, generated from: https://www.network-science.de/ascii/
+ \__,_|_.__/ \__, |_|_|         https://github.com/dbtek/dbyll
 -------------|___/------------------------------------------------&gt;
 
   &lt;style&gt;
@@ -401,7 +401,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 
     &lt;/pre&gt;</description>
-            <link>http://enricforn.gihub.io//404.html</link>
+            <link>https://enricforn.gihub.io//404.html</link>
           </item>
         
       
@@ -416,7 +416,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <title>About</title>
             <description>&lt;p&gt;Love mountain-biking and montaineering. Learning how to improve software development.&lt;/p&gt;
 </description>
-            <link>http://enricforn.gihub.io//about.html</link>
+            <link>https://enricforn.gihub.io//about.html</link>
           </item>
         
       

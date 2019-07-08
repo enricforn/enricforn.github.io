@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Configure on premise build server to Visual Studio Team Services</title>
   <meta name="description" content="In this post I suppose you are familiar to Visual Studio Team Services (from now VSTS). I’m gonna explain briefly how you can configure your own build server...">
-  <link rel="canonical" href="http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html">
-  <link rel="alternate" type="application/rss+xml" title="enricforn.github.io" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="https://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html">
+  <link rel="alternate" type="application/rss+xml" title="enricforn.github.io" href="https://localhost:4000/feed.xml">
 
   <style type="text/css">
     
@@ -703,7 +703,7 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
     </div>
 
     <div class="column column--center medium-12 large-10">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
         
 
@@ -719,7 +719,7 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <p>You can configure your project to build automatically by following this <a href="https://www.visualstudio.com/en-us/docs/build/get-started/dot-net">guide</a>. This example is based on a standard .NET for Windows application, but VSTS Build can support any language and platform.</p>
 
-<p>Ok, let’s suppose we want to run <a href="https://winscp.net">WinSCP</a> from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this <a href="http://listofsoftwareontfshostedbuildserver.azurewebsites.net/">list of software</a>. WinSCP is not installed on hosted build servers.</p>
+<p>Ok, let’s suppose we want to run <a href="https://winscp.net">WinSCP</a> from our build process, and we need FileZilla to be installed in the build server. First of all, we would review if WinSCP is installed on a hosted build controller in this <a href="https://listofsoftwareontfshostedbuildserver.azurewebsites.net/">list of software</a>. WinSCP is not installed on hosted build servers.</p>
 
 <p>If we must use WinSCP during our release process, then we should to create our own build server, in order to set up with all software we need to run in our build process.</p>
 
@@ -727,11 +727,11 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <p>Access your admin panel to download the agent:</p>
 
-<p><img src="http://localhost:4000/images/download-agent.PNG" alt="Build Service Configuration" /></p>
+<p><img src="https://localhost:4000/images/download-agent.PNG" alt="Build Service Configuration" /></p>
 
 <p>Depending on your platform, download the appropriate agent:</p>
 
-<p><img src="http://localhost:4000/images/download-agent-2.PNG" alt="Download agent depending on your platform" /></p>
+<p><img src="https://localhost:4000/images/download-agent-2.PNG" alt="Download agent depending on your platform" /></p>
 
 <p>Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.</p>
 
@@ -741,15 +741,15 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <p>Before running the agent configuration, you need to create a personal access token to access for VSTS:</p>
 
-<p><img src="http://localhost:4000/images/agent-config-2.PNG" alt="Creating a personal access token" /></p>
+<p><img src="https://localhost:4000/images/agent-config-2.PNG" alt="Creating a personal access token" /></p>
 
 <p>If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:</p>
 
-<p><img src="http://localhost:4000/images/agent-config-1.PNG" alt="Configuring build agent VSTS" /></p>
+<p><img src="https://localhost:4000/images/agent-config-1.PNG" alt="Configuring build agent VSTS" /></p>
 
 <p>As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:</p>
 
-<p><img src="http://localhost:4000/images/agent-config-3.PNG" alt="Configured build agent VSTS" /></p>
+<p><img src="https://localhost:4000/images/agent-config-3.PNG" alt="Configured build agent VSTS" /></p>
 
 <p>#Configure Build Agent in TFS2013</p>
 
@@ -759,11 +759,11 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <p>After the port service is opened you can configure the agent by running ./configure.cmd from command line:</p>
 
-<p><img src="http://localhost:4000/images/Configure-agent-powershell-command.PNG" alt="Configured build agent VSTS" /></p>
+<p><img src="https://localhost:4000/images/Configure-agent-powershell-command.PNG" alt="Configured build agent VSTS" /></p>
 
 <p>In windows environment, create agent as service, allows you to manage service from server without access to VSTS:</p>
 
-<p><img src="http://localhost:4000/images/Agent-created-as-a-service.PNG" alt="VSTS Build Agent configured as service" /></p>
+<p><img src="https://localhost:4000/images/Agent-created-as-a-service.PNG" alt="VSTS Build Agent configured as service" /></p>
 
 
           <div class="post__tags">
@@ -785,17 +785,17 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <ul class="share-list">
   <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Configure on premise build server to Visual Studio Team Services&url=http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Configure on premise build server to Visual Studio Team Services&url=https://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
       <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html" rel="nofollow" target="_blank" title="Share on Facebook">
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=https://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html" rel="nofollow" target="_blank" title="Share on Facebook">
     <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html" rel="nofollow" target="_blank" title="Share on Google+">
+    <a class="share-list__link" href="https://plus.google.com/share?url=https://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html" rel="nofollow" target="_blank" title="Share on Google+">
     <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
     </a>
   </li>
@@ -826,7 +826,7 @@ input[type='text']:focus, input[type='tel']:focus, input[type='number']:focus, i
 
 <script>
   var disqus_config = function () {
-    this.page.url = "http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html";
+    this.page.url = "https://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise.html";
   };
 
   (function() {

@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore</title>
   <meta name="description" content="How to connect to TFS or Visual Studio online through API and get WorkItemStore service. Brief description of encountered issues and how to solve them.">
-  <link rel="canonical" href="http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/">
-  <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="http://enricforn.gihub.io//feed.xml">
+  <link rel="canonical" href="https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/">
+  <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="https://enricforn.gihub.io//feed.xml">
 
   <style type="text/css">
     
@@ -141,7 +141,7 @@
         <ul class="social-nav social-icons">
           
           <li>
-            <a href="http://www.linkedin.com/in/enricforn" target="_blank">
+            <a href="https://www.linkedin.com/in/enricforn" target="_blank">
               <span data-icon="ei-sc-linkedin" data-size="s"></span>
             </a>
           </li>
@@ -149,7 +149,7 @@
 
           
           <li>
-            <a href="http://www.github.com/enricforn" target="_blank">
+            <a href="https://www.github.com/enricforn" target="_blank">
               <span data-icon="ei-sc-github" data-size="s"></span>
             </a>
           </li>
@@ -157,7 +157,7 @@
 
           
           <li>
-            <a href="http://www.twitter.com/eforn" target="_blank">
+            <a href="https://www.twitter.com/eforn" target="_blank">
               <span data-icon="ei-sc-twitter" data-size="s"></span>
             </a>
           </li>
@@ -229,10 +229,10 @@
     </div>
 
     <div class="column column--center medium-12 large-10">
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
         
-          <meta itemprop="og:image" content="http://enricforn.gihub.io//images/posts/workitemstore/vs2013-sdk.png">
+          <meta itemprop="og:image" content="https://enricforn.gihub.io//images/posts/workitemstore/vs2013-sdk.png">
         
 
         <header class="post__header">
@@ -243,7 +243,7 @@
         <div class="post-content" itemprop="articleBody">
           <h3 id="how-to-connect-to-tfs-or-visual-studio-online-through-api-and-get-workitemstore-service-brief-description-of-encountered-issues-and-how-to-solve-them">How to connect to TFS or Visual Studio online through API and get WorkItemStore service. Brief description of encountered issues and how to solve them.</h3>
 
-<p>In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to <a href="http://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx">TFS</a>, and you are used to work with <a href="https://msdn.microsoft.com/en-us/library/hh409275.aspx">WorkItems</a>) and <a href="https://msdn.microsoft.com/en-us/library/bb130306.c#">WIQL</a>.
+<p>In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to <a href="https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx">TFS</a>, and you are used to work with <a href="https://msdn.microsoft.com/en-us/library/hh409275.aspx">WorkItems</a>) and <a href="https://msdn.microsoft.com/en-us/library/bb130306.c#">WIQL</a>.
 Ok, let’s start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -&gt; New -&gt; Project -&gt; Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
@@ -318,17 +318,17 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 <ul class="share-list">
   <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore&url=http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Connect to TFS2013 or  Visual Studio Online and access to WorkItemStore&url=https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
       <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/" rel="nofollow" target="_blank" title="Share on Facebook">
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/" rel="nofollow" target="_blank" title="Share on Facebook">
     <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/" rel="nofollow" target="_blank" title="Share on Google+">
+    <a class="share-list__link" href="https://plus.google.com/share?url=https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/" rel="nofollow" target="_blank" title="Share on Google+">
     <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
     </a>
   </li>
@@ -359,7 +359,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 <script>
   var disqus_config = function () {
-    this.page.url = "http://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/";
+    this.page.url = "https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/";
   };
 
   (function() {
