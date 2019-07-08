@@ -15,9 +15,9 @@ install:
   # - pandoc --version
 
   # Install Jekyll and dependencies
-  - gem "jekyll"
+  - gem jekyl
   
-  - gem "html-proofer"
+  - gem html-proofer
 
   - bundle install
 
