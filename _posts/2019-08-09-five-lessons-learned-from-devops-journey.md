@@ -7,13 +7,13 @@ author: eforn
 image: /images/posts/lessons-learned-devops/header.jpg
 ---
 
-### In this post I write about five points I consider core to successfully adopt DevOps. I highly recommend you to follow these 5 core points if you want to move an organization towards a DevOps transformation.
+### In this post you will find five points considered core to successfully adopt DevOps. I should recommend you to follow these 5 core points if you want to move an organization towards a DevOps transformation.
 
 Over the past ten years I've been guided on my DevOps journey by the aim to improve development cycle of the products I've been working on, and the desire of continuous learning.
 
 DevOps technics and patterns are widely explained in many posts, books and podcasts. In this post I share five most important lessons learned in my DevOps journey.
 
-## 1. Measure your development processes
+## 1. Measure your development process
 
 Eficiency and removing waste are two main objective key results that you should pursue in your DevOps journey. If you want to improve your software delivery performance, it's important to drive your actions based on emphirical information. You should be able to measure the following metrics:
 
@@ -65,14 +65,17 @@ I should propose you to identify the early adopters teams in your organization t
 
 ## 5. Your DevOps journey never ends
 
-Yes, once you've started your DevOps journey it will never ends. Capabilities, processes and behaviours of teams, will probably change, and you technics, practices and platforms must also change. I've been observing these kind of situations, and the reasons are:
+Yes, once you've started your DevOps journey it will never ends. Capabilities, processes and behaviours of teams, will probably change, and you technics, practices and platforms must also change. Observer your toolchain system and improve it. Keep your eye on these situations:
  + New languages used by development team which are not supported by your pipeline.
  + New kinds of infrastructure where you want to deploy artifacts that you doesn't support either.
  + The level of delegation you give to team for being more autonomous on doing some tasks (customize builds, quality parameter configuration, integration between requirements and development tools, ...)
- + Observing the system and learning how to improve it.
- + Receiving feedback from users regarding to paint point they have during the process.
+ + Figure out where pain point are in your SDLC. Deal with received feedback carefully.
  + Stay tuned on what's going on the community: many people innovate an try new tools and techniques. You can watch webinars and read many interesting books explaining deeply these techniques and succeeded use cases. Each organization adopt DevOps model through their own way, there's no a road to follow. I should recommend to read these interesting books:
    - Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw: **The DevOps Handbook**: How to Create World-Class Agility, Reliability, and Security in Technology Organizations Paperback – 2016
    - Nicole Forsgren, Jez Humble, Gene Kim: **Accelerate**: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations Paperback – March , 2018
    - Daniel Coyle: **The Culture Code**: The Secrets of Highly Successful Groups - 2018
    - Jez Humble, Joanne Molesky, Barry O'Reilly. **Lean Enterprise**: How High Performance Organizations Innovate at Scale Hardcover – 2015
+
+Hope this post helps in your devops journey. Don't hesitate contacting me for feedback or further information.
+
+Thank you for reading!
