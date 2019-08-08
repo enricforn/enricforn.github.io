@@ -6,7 +6,7 @@ tags: [AWS,AWSCli]
 image: /images/posts/aws-cli-win/header.png
 ---
 
-###This post describe how to install AWSCli on windows, and how to solve encountered issues
+### This post describe how to install AWSCli on windows, and how to solve encountered issues
 
 Amazon Web Services is a great cloud environment. Personnally I'm using its S3 service ([Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)) to backup all my information. It's really cheap and easy to access.
 

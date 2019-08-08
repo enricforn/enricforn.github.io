@@ -2,13 +2,104 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Software engineering experiencies related blog</title>
-    <description>Enric Forn  Innovation and Engineering Manager</description>
-    <link>https://enricforn.gihub.io//</link>
-    <atom:link href="https://enricforn.gihub.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jul 2019 19:00:50 +0200</pubDate>
-    <lastBuildDate>Fri, 05 Jul 2019 19:00:50 +0200</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <description>Enric Forn  Innovation and Product Manager</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 08 Aug 2019 15:28:09 +0200</pubDate>
+    <lastBuildDate>Thu, 08 Aug 2019 15:28:09 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
 
+    
+      <item>
+        <title>5 Lessons learned from devops journey</title>
+        <description>&lt;h3 id=&quot;in-this-post-you-will-find-five-points-considered-core-to-successfully-adopt-devops-i-should-recommend-you-to-follow-these-5-core-points-if-you-want-to-move-an-organization-towards-a-devops-transformation&quot;&gt;In this post you will find five points considered core to successfully adopt DevOps. I should recommend you to follow these 5 core points if you want to move an organization towards a DevOps transformation.&lt;/h3&gt;
+
+&lt;p&gt;Over the past ten years I’ve been guided on my DevOps journey by the aim to improve development cycle of the products I’ve been working on, and the desire of continuous learning.&lt;/p&gt;
+
+&lt;p&gt;DevOps technics and patterns are widely explained in many posts, books and podcasts. In this post I share five most important lessons learned in my DevOps journey.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-measure-your-development-process&quot;&gt;1. Measure your development process&lt;/h2&gt;
+
+&lt;p&gt;Eficiency and removing waste are two main objective key results that you should pursue in your DevOps journey. If you want to improve your software delivery performance, it’s important to drive your actions based on emphirical information. You should be able to measure the following metrics:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;- Lead time for changes&lt;/strong&gt;: many companies are efficient on using their resources, but their pace is too low. This indicator gives you information on how fast you can bring new business requirements to production environment, and can help you to balance resource usage and flow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;- Deployment frequency&lt;/strong&gt;: this indicator it’s highly correlater with batch sizes of your projects. As soon as you reduce batch sizing, it’s less complex deploy applications in production environment, and therefore, you will be able to deploy more frequently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;- Mean time to restore service&lt;/strong&gt;: this measure captures the average time needed to recover your service from an incident like unplanned outage. This  time includes not only the time spent until you recover customer’s service, but also time spent to figure out the root cause and fix it in the production environment.&lt;/p&gt;
+
+&lt;p&gt;By collecting all this information from these indicators you are assessing which is your starting point. At this time, you can address objective conversations based on these data, and allows you to create the first backlog to improve your system. While monitoring these indicators, you will be able to check if your system is improved or not, in each changes delivered to your applications, tools or processes.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-show-business-value-to-managers&quot;&gt;2. Show business value to managers&lt;/h2&gt;
+
+&lt;p&gt;Regardless the size of the organization, you’ll need investment to improve your toolchain, refactor applications, update processes or teach your employees. It’s really important to map your efforts to monetization, in terms of improvement.&lt;/p&gt;
+
+&lt;p&gt;By improving key performance indicators listed in point 1, first beneficiary is business in terms of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you improve your lead time, business will be able to deliver products to customers more quickly, and so your company will obtain profit with these products faster too.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;By improving your frequency in deployment, this means your business will be able to deliver more frequently value to customers. Thus these customers will get more new features more frequently too.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you improve your mean time to recover service, you can traduce it to better service given to customers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-focus-on-a-learning-culture-in-your-organization&quot;&gt;3. Focus on a Learning culture in your organization&lt;/h2&gt;
+
+&lt;p&gt;Work on culture’s organization is one of the most difficult challenges to be addressed. DevOps is an enabler that allows your company to walk to a learning and innovation culture.&lt;/p&gt;
+
+&lt;p&gt;DevOps technics and practices are focused on improve speed, availability and cost reduction, and it’s necessary that everyone should be able to learn new approaches on how apply new technics, and experiment in their daily work. Create an innovation mindset, move people to continuously learn and be more open to change. When people embrace creativity, they are able to deliver smarter solutions for your business.&lt;/p&gt;
+
+&lt;p&gt;At this point, when I work on improve a culture’s organization, I focus the efforts on try to figure out which kind of context allows the creation of high-performance teams, and I found these three points:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Build a safety environment&lt;/strong&gt; where everyone is comfortable to work together. All members in your team has skills to succeed delivering the product. One of the most difficult task create de context to motivate them. Use belonging cues every day (morning coffee) or weekly (breakfast on friday)  to include people in the team. The most awful part is when a person do not want to stay in a team working on a product, but they don’t want to leave, you must pick up trash and remove bad apples, and it’s not an easy task.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Share vulnerability&lt;/strong&gt; by creating spaces where you can talk on what you’ve done, and also discuss which actions the team want to take, in order to improve or change. Take out people from their confort zone at first is awkward, but has positive results. You can organize retrospective with teams, after the delivery of a feature in your product.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Establish purpose&lt;/strong&gt; which guide outputs aligned to outcomes defined by business, through your products. This strategy enables alignment in the entire organization.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-achieve-big-through-small&quot;&gt;4. Achieve big through small&lt;/h2&gt;
+
+&lt;p&gt;It’s very difficult to transform an organitzation in a short term. People need to learn step by step how to use new techniques and tools, and change their behaviors.&lt;/p&gt;
+
+&lt;p&gt;Innovation Curve of Rogers classify adopters and innovators into various categories, based on the idea that some people are more open to adapt to changes:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/lessons-learned-devops/rogers-innovation-curve.png&quot; alt=&quot;Rogers adoption/innovation &quot; title=&quot;Rogers adoption/innovation curve&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Innovation teams probably are the ones who are leading the DevOps transformation in your organization.&lt;/p&gt;
+
+&lt;p&gt;I should propose you to identify the early adopters teams in your organization to start your DevOps transformation. Check your model with early adopters teams and refine it.  Collect KPIs before and after the adoption, and then extract metrics from your measurements. You should visualize the improvements as the teams are more comfortable and more productive while using devops toolchain. Overcommunicate all these results to the entire organization, and then expand that devops model step by step throughout your company.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-your-devops-journey-never-ends&quot;&gt;5. Your DevOps journey never ends&lt;/h2&gt;
+
+&lt;p&gt;Yes, once you’ve started your DevOps journey it will never ends. Capabilities, processes and behaviours of teams, will probably change, and you technics, practices and platforms must also change. Observer your toolchain system and improve it. Keep your eye on these situations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;New languages used by development team which are not supported by your pipeline.&lt;/li&gt;
+  &lt;li&gt;New kinds of infrastructure where you want to deploy artifacts that you doesn’t support either.&lt;/li&gt;
+  &lt;li&gt;The level of delegation you give to team for being more autonomous on doing some tasks (customize builds, quality parameter configuration, integration between requirements and development tools, …)&lt;/li&gt;
+  &lt;li&gt;Figure out where pain point are in your SDLC. Deal with received feedback carefully.&lt;/li&gt;
+  &lt;li&gt;Stay tuned on what’s going on the community: many people innovate an try new tools and techniques. You can watch webinars and read many interesting books explaining deeply these techniques and succeeded use cases. Each organization adopt DevOps model through their own way, there’s no a road to follow. I should recommend to read these interesting books:
+    &lt;ul&gt;
+      &lt;li&gt;Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw: &lt;strong&gt;The DevOps Handbook&lt;/strong&gt;: How to Create World-Class Agility, Reliability, and Security in Technology Organizations Paperback – 2016&lt;/li&gt;
+      &lt;li&gt;Nicole Forsgren, Jez Humble, Gene Kim: &lt;strong&gt;Accelerate&lt;/strong&gt;: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations Paperback – March , 2018&lt;/li&gt;
+      &lt;li&gt;Daniel Coyle: &lt;strong&gt;The Culture Code&lt;/strong&gt;: The Secrets of Highly Successful Groups - 2018&lt;/li&gt;
+      &lt;li&gt;Jez Humble, Joanne Molesky, Barry O’Reilly. &lt;strong&gt;Lean Enterprise&lt;/strong&gt;: How High Performance Organizations Innovate at Scale Hardcover – 2015&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope this post helps in your devops journey. Don’t hesitate contacting me for feedback or further information.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Aug 2019 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/devops/2019/08/09/five-lessons-learned-from-devops-journey/</link>
+        <guid isPermaLink="true">http://localhost:4000/devops/2019/08/09/five-lessons-learned-from-devops-journey/</guid>
+      </item>
     
       <item>
         <title>Intro DevOps</title>
@@ -19,23 +110,23 @@
 &lt;p&gt;You can take a look at this support &lt;a href=&quot;https://slides.com/enricforn/what-is-devops&quot;&gt;Intro DevOPs&lt;/a&gt; I used to guide my speech.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Oct 2018 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</guid>
+        <link>http://localhost:4000/devops/2018/10/24/intro-devops/</link>
+        <guid isPermaLink="true">http://localhost:4000/devops/2018/10/24/intro-devops/</guid>
       </item>
     
       <item>
         <title>How to measure a Team performance</title>
-        <description>&lt;h3 id=&quot;this-article-describes-which-metrics-you-should-choose-to-measure-how-fast-can-your-development-team-deliver-software-and-what-quality-does-that-deliverable&quot;&gt;This article describes which metrics you should choose to measure how fast can your development team deliver software, and what quality does that deliverable&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;briefly-description-of-which-metrics-you-should-choose-to-measure-how-fast-can-your-development-team-deliver-software-and-what-quality-does-that-deliverable&quot;&gt;Briefly description of which metrics you should choose to measure how fast can your development team deliver software, and what quality does that deliverable&lt;/h3&gt;
 
 &lt;p&gt;Here follows  key metrics to measure your team performance to delivery valued features of a product.&lt;/p&gt;
 
-&lt;p&gt;Deployment frequency: how often you deploy code to production environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deployment frequency&lt;/strong&gt;: how often you deploy code to production environment.&lt;/p&gt;
 
-&lt;p&gt;Lead time for changes: how long does it take to go from code commit to code successfully running in production&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead time for changes&lt;/strong&gt;: how long does it take to go from code commit to code successfully running in production&lt;/p&gt;
 
-&lt;p&gt;Mean time to recover: average time need to recover your service from an incident like unplanned outage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mean time to recover&lt;/strong&gt;: average time need to recover your service from an incident like unplanned outage.&lt;/p&gt;
 
-&lt;p&gt;Change failure rate: what percentage of changes results either in degraded service or subsequently requires remediation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Change failure rate&lt;/strong&gt;: what percentage of changes results either in degraded service or subsequently requires remediation&lt;/p&gt;
 
 &lt;p&gt;You can get this metrics by using tools to orchestrate your SDLC in a DevOps pipeline. Using tools such git as a SCM, CI/CD tool like Jenkins, monitoring your system with New Relic and tracing your developments in Jira.&lt;/p&gt;
 
@@ -43,11 +134,11 @@
 
 &lt;p&gt;The following metric is also really interested, but is focused on the performance of individuals:&lt;/p&gt;
 
-&lt;p&gt;Team Morale: is the enthusiasm and persistence with which a member of a team engages in the prescribed activities of that group’ (Manning, 1991)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Team Morale&lt;/strong&gt;: is the enthusiasm and persistence with which a member of a team engages in the prescribed activities of that group’ (Manning, 1991)&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</guid>
+        <link>http://localhost:4000/process/2018/10/19/how-to-measure-a-team-performance/</link>
+        <guid isPermaLink="true">http://localhost:4000/process/2018/10/19/how-to-measure-a-team-performance/</guid>
       </item>
     
       <item>
@@ -56,31 +147,28 @@
 
 &lt;p&gt;When trying to solve some kind of conectivity problem, I often use telnet. By default, windows machine do not preinstall telnet:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-C:\&amp;gt;telnet google.com 80
-&#39;telnet&#39; is not recognized as an internal or external command, operable program or batch file.
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\&amp;gt;telnet google.com 80
+'telnet' is not recognized as an internal or external command, operable program or batch file.
 C:\&amp;gt;
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You can easily install telnet from command-line with this short command:&lt;/p&gt;
 
 &lt;p&gt;From standard command prompt command-line:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-dism /online /Enable-Feature /FeatureName:TelnetClient
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dism /online /Enable-Feature /FeatureName:TelnetClient
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;From powershell console:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
-Install-WindowsFeature -name Telnet-Client
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Install-WindowsFeature -name Telnet-Client
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Have fun!&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Jul 2017 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
+        <link>http://localhost:4000/windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
+        <guid isPermaLink="true">http://localhost:4000/windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
       </item>
     
       <item>
@@ -97,7 +185,7 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Go to Package management feature, and add a new feed:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Feed creation allows you to configure some options:&lt;/p&gt;
 
@@ -110,7 +198,7 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Once you have create your repository, you can connect to it:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can choose whether the access is through NuGet or npm. In this example we choose npm:&lt;/p&gt;
 
@@ -121,14 +209,14 @@ Install-WindowsFeature -name Telnet-Client
     &lt;p&gt;Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
           always-auth=true
-&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;http://localhost:4000/images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;It’s highly recommended to create two files:&lt;/p&gt;
@@ -140,17 +228,17 @@ Install-WindowsFeature -name Telnet-Client
 
 &lt;p&gt;Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now your package is ready for being installed to any application.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Enjoy sharing code from your feeds with your colleagues!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
+        <link>http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
+        <guid isPermaLink="true">http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
       </item>
     
       <item>
@@ -202,8 +290,8 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 &lt;p&gt;If you encounter the same issue, hope this helps.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
+        <link>http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/</link>
+        <guid isPermaLink="true">http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
       </item>
     
       <item>
@@ -224,31 +312,31 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;Access your admin panel to download the agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Depending on your platform, download the appropriate agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.&lt;/p&gt;
 
-&lt;h1 id=&quot;configure-build-agent-in-vsts-or-tfs15&quot;&gt;Configure Build Agent in VSTS or TFS15&lt;/h1&gt;
+&lt;p&gt;#Configure Build Agent in VSTS or TFS15&lt;/p&gt;
 
 &lt;p&gt;If you are using VSTS or TFS15 then download standard image.&lt;/p&gt;
 
 &lt;p&gt;Before running the agent configuration, you need to create a personal access token to access for VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;configure-build-agent-in-tfs2013&quot;&gt;Configure Build Agent in TFS2013&lt;/h1&gt;
+&lt;p&gt;#Configure Build Agent in TFS2013&lt;/p&gt;
 
 &lt;p&gt;If your VSTS or TFS version is older then you should download the legacy version, and then the following step differs a little bit:&lt;/p&gt;
 
@@ -256,16 +344,16 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;After the port service is opened you can configure the agent by running ./configure.cmd from command line:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In windows environment, create agent as service, allows you to manage service from server without access to VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 02 Nov 2016 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
+        <link>http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
       </item>
     
       <item>
@@ -275,21 +363,19 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 &lt;p&gt;In this post, I detail how you can access to Team Foundation Server 2013 (on premise) through its API. Once we can connect to the server, we will get an instance of a TFS service, in this example we will access to WorkItemStore, and we’ll get a list of all existing user stories in a team project. I suppouse you are familiar to &lt;a href=&quot;https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx&quot;&gt;TFS&lt;/a&gt;, and you are used to work with &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/hh409275.aspx&quot;&gt;WorkItems&lt;/a&gt;) and &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/bb130306.c#&quot;&gt;WIQL&lt;/a&gt;.
 Ok, let’s start with a sample c# console application called TFSUserStoriesConsole. Open your Visual Studio and create a new Visual C# Console Application (File -&amp;gt; New -&amp;gt; Project -&amp;gt; Visual C#). Then we create a class which manage connection to TFS, and get the instance of WorkItemStore object. WorkItemStore let you to get workitems from TFS. Let me show you a piece of code:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     teamProjectCollection = new TfsTeamProjectCollection(tfsUri, myCredentials);
 
      teamProjectCollection.EnsureAuthenticated();
 
      workItemStore = teamProjectCollection.GetService&amp;lt;WorkItemStore&amp;gt;();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;We connect to TFS, ensure we are connected to it, and finally we get the instance of WorkItemStore. It’s strange because workItemStore equals null and I don’t get more information about it.&lt;/p&gt;
 
 &lt;p&gt;The way I’ve found to get more information about this null, is create a new instance of WorkItemStore:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     WorkItemStore workItemStore = new WorkItemStore(teamProjectCollection);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     WorkItemStore workItemStore = new WorkItemStore(teamProjectCollection);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;In my case seems that I missed some assemblies to reference:&lt;/p&gt;
 
@@ -333,8 +419,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 &lt;p&gt;Hope it helps and you save time to solve this problems.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
+        <link>http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
+        <guid isPermaLink="true">http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
       </item>
     
       <item>
@@ -342,8 +428,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
         <description>&lt;p&gt;Hi all. Welcome to personal blog of Enric Forn. I will write in english, but also in catalan or spanish language. I will post about software engineering, software automation and distributed teams.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//general/2015/02/21/welcome/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//general/2015/02/21/welcome/</guid>
+        <link>http://localhost:4000/general/2015/02/21/welcome/</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2015/02/21/welcome/</guid>
       </item>
     
 
@@ -355,7 +441,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <description>&lt;!----------------------------------------------------------------
      _ _           _ _          
   __| | |__  _   _| | |         Ascii arts included in this page:
- / _` | &#39;_ \| | | | | |         - R2D2, provided by: https://www.chris.com/
+ / _` | '_ \| | | | | |         - R2D2, provided by: https://www.chris.com/
 | (_| | |_) | |_| | | |         - Texts, generated from: https://www.network-science.de/ascii/
  \__,_|_.__/ \__, |_|_|         https://github.com/dbtek/dbyll
 -------------|___/------------------------------------------------&gt;
@@ -387,21 +473,21 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
                         4444444444     000000000             4444444444
 
          ,-----.             _   _     _           _                 _     _               _   
-       ,&#39;_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
-      /&lt;&lt;::8[O]::&gt;\         | __| &#39;_ \| / __| / __| &#39;_ \ / _ \| | | | |/ _` | | &#39;_ \ / _ \| __|
+       ,'_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
+      /&lt;&lt;::8[O]::&gt;\         | __| '_ \| / __| / __| '_ \ / _ \| | | | |/ _` | | '_ \ / _ \| __|
      _|-----------|_        | |_| | | | \__ \ \__ \ | | | (_) | |_| | | (_| | | | | | (_) | |_ 
  :::|  | ====-=- |  |:::     \__|_| |_|_|___/ |___/_| |_|\___/ \__,_|_|\__,_| |_| |_|\___/ \__|
  :::|  | -=-==== |  |:::                                                                         
  :::\  | ::::|()||  /:::     _                                                          
  ::::| | ....|()|| |::::    | |__   __ _ _ __  _ __   ___ _ __       _____   _____ _ __ 
-     | |_________| |        | &#39;_ \ / _` | &#39;_ \| &#39;_ \ / _ \ &#39;_ \     / _ \ \ / / _ \ &#39;__|
+     | |_________| |        | '_ \ / _` | '_ \| '_ \ / _ \ '_ \     / _ \ \ / / _ \ '__|
      | |\_______/| |        | | | | (_| | |_) | |_) |  __/ | | |_  |  __/\ V /  __/ |   
     /   \ /   \ /   \       |_| |_|\__,_| .__/| .__/ \___|_| |_( )  \___| \_/ \___|_|   
-    `---&#39; `---&#39; `---&#39;                   |_|   |_|              |/                       
+    `---' `---' `---'                   |_|   |_|              |/                       
 
 
     &lt;/pre&gt;</description>
-            <link>https://enricforn.gihub.io//404.html</link>
+            <link>http://localhost:4000/404.html</link>
           </item>
         
       
@@ -416,9 +502,11 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <title>About</title>
             <description>&lt;p&gt;Love mountain-biking and montaineering. Learning how to improve software development.&lt;/p&gt;
 </description>
-            <link>https://enricforn.gihub.io//about.html</link>
+            <link>http://localhost:4000/about.html</link>
           </item>
         
+      
+    
       
     
       
