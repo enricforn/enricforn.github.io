@@ -6,7 +6,7 @@ tags: [windows, commands]
 image: /images/posts/install-telnet-ws2016/header.png
 ---
 
-###The easiest and fastest way to install telnet to a Windows Server 2016 from command-line
+### The easiest and fastest way to install telnet to a Windows Server 2016 from command-line
 
 When trying to solve some kind of conectivity problem, I often use telnet. By default, windows machine do not preinstall telnet:
 

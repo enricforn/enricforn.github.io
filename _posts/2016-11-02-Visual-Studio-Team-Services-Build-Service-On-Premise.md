@@ -7,7 +7,7 @@ tags: [Visual Studio Team Services, Build, Release]
 image: /images/posts/vsts-build-onpremise/header.png
 ---
 
-###Describing on how to connect your Build server to a team project on Visual Studio Team Services
+### Describing on how to connect your Build server to a team project on Visual Studio Team Services
 
 In this post I suppose you are familiar to Visual Studio Team Services (from now VSTS). I'm gonna explain briefly how you can configure your own build server hosted on premise.
 

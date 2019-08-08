@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Install AWSCli on windows</title>
-  <meta name="description" content="This post describe how to install AWSCli on windows, and how to solve encountered issues">
-  <link rel="canonical" href="http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/">
+  <title>Software engineering experiencies related blog</title>
+  <meta name="description" content="Enric Forn  Innovation and Engineering Manager">
+  <link rel="canonical" href="http://localhost:4000/tag/devops/">
   <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="http://localhost:4000/feed.xml">
 
   <style type="text/css">
@@ -221,157 +221,80 @@
 
 </div>
 
-    
+    <div class="wrapper">
 
-
-
-<div class="wrapper">
   <div class="row row--full">
+    <div class="column large-12">
 
-    <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/aws-cli-win/header.png)"></div>
-    </div>
-
-    <div class="column column--center medium-12 large-10">
-      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
-
-        
-          <meta itemprop="og:image" content="http://localhost:4000/images/posts/aws-cli-win/header.png">
-        
-
-        <header class="post__header">
-          <h2 class="post__title" itemprop="name headline">Install AWSCli on windows</h2>
-          <time class="post__date" datetime="2017-01-18T00:00:00+01:00" itemprop="datePublished">Jan 18, 2017</time>
-          <div class="read_time" content=""><span class="reading-time" title="Estimated read time">
-  
-  2 min read.
-</span></div>
-        </header>
-
-        <div class="post-content" itemprop="articleBody">
-          <h3 id="this-post-describe-how-to-install-awscli-on-windows-and-how-to-solve-encountered-issues">This post describe how to install AWSCli on windows, and how to solve encountered issues</h3>
-
-<p>Amazon Web Services is a great cloud environment. Personnally I’m using its S3 service (<a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html">Simple Storage Service</a>) to backup all my information. It’s really cheap and easy to access.</p>
-
-<p>I use <a href="https://aws.amazon.com/es/cli/">AWSCli</a> to interact with amazon web services. Most of actions you can do with their web console, can also be run from awscli.</p>
-
-<p>I just downloaded the application and installed it. Apparently is very easy, the install application is an easy wizard. After that, I opened a powershell console and configure a default credentials to access to my AWS account:</p>
-
-<ul>
-  <li>Open powershell console (powershell.exe).</li>
-  <li>Run command ‘aws configure’. This command ask you credentials to access to AWS:
-    <ul>
-      <li>Access Key Id: This key</li>
-      <li>Secret Access Key: Key showed only when you create the user.</li>
-      <li>Default Region: in my case eu-west-1</li>
-      <li>Default output format: I chose json</li>
-    </ul>
-  </li>
-</ul>
-
-<p>It seems everything works fine, but when I ran the next command (aws s3 cp s://mybucket D:\data\mybucket.) the following error appears:</p>
-
-<p>C:\Program Files\Amazon\AWSCLI.\dateutil\parser.py:336: UnicodeWarning: Unicode  equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal</p>
-
-<p>This is an error with python 2.7.9 version, which was solved in earlier versions of python. And this is the python version that awscli installs to run properly.</p>
-
-<p>You can run command ‘aws –version’ to know which version of python is using your installed awscli:</p>
-
-<p>PS C:\Users\enric&gt; aws –version
-aws-cli/1.11.38 Python/2.7.9 Windows/10 botocore/1.5.1</p>
-
-<p>Trying to solve this issue, I started to find a solution in google. And I found an opened issue in <a href="https://github.com/aws/aws-cli/issues/424">github awscli</a>. I hope AWS guys will solve it in the next version :). There I found the workaround to solve this issue:</p>
-
-<ul>
-  <li>Uninstall AWSCli from my machine.</li>
-  <li>Install the latest version of python.</li>
-  <li>Install awscli from python 3 installer: open a powershell console. Run commmand ‘pip install awscli’.</li>
-</ul>
-
-<p>Now, the awscli installed on my machine, is using a newer version of python and works fine:</p>
-
-<p>PS C:\Users\enric&gt; aws –version
-aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1</p>
-
-<p>If you encounter the same issue, hope this helps.</p>
-
-          <div class="post__tags">
-            
-              <a href="/tag/AWS">AWS</a>
-            
-              <a href="/tag/AWSCli">AWSCli</a>
-            
-          </div>
+      <header class="page-header box">
+        <div data-icon="ei-tag" data-size="s" class="box__icon"></div>
+        <div class="box__body">
+          <h4 class="box__title">devops</h4>
         </div>
+      </header>
 
-        <hr>
-
-        
-
-        
-
-<ul class="share-list">
-  <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=Install AWSCli on windows&url=http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
-      <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
-    </a>
-  </li>
-  <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/" rel="nofollow" target="_blank" title="Share on Facebook">
-    <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
-    </a>
-  </li>
-  <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/" rel="nofollow" target="_blank" title="Share on Google+">
-    <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
-    </a>
-  </li>
-</ul>
-
-        <h5 class="separator">
-  <span class="separator__title">Newsletter</span>
-</h5>
-
-<div class="box box--news-letter">
-  <form action="//mailchimp.us12.list-manage.com/subscribe/post?u=xxxxxxx&amp;id=88b086673f" method="post" target="_blank">
-    <div class="row">
-      <div class="column medium-9 large-9">
-        <input type="email" name="EMAIL" placeholder="enricfj@gmail.com">
-      </div>
-      <div class="column medium-3 large-3">
-        <input type="submit" class="button button--expand" value="SIGN UP">
-      </div>
     </div>
-  </form>
+  </div>
+
+  <div class="row">
+    <div class="post-list">
+      
+        <article class="post-card-wrap column medium-6 large-4">
+
+  <div class="post-card">
+
+    <a href="/devops/2018/10/24/intro-devops/" class="block" title="Intro DevOps">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/intro-devops/header.png)">
+        
+      </div>
+    </a>
+
+    <div class="post-card__meta">
+      <span class="post-card__meta__date">Oct 24, 2018</span>
+    </div>
+
+    <h2 class="post-card__title">
+      <a title="Intro DevOps" href="/devops/2018/10/24/intro-devops/">Intro DevOps</a>
+    </h2>
+
+  </div>
+</article>
+      
+        <article class="post-card-wrap column medium-6 large-4">
+
+  <div class="post-card">
+
+    <a href="/process/2018/10/19/how-to-measure-a-team-performance/" class="block" title="How to measure a Team performance">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/measure-team-performance/header.jpeg)">
+        
+      </div>
+    </a>
+
+    <div class="post-card__meta">
+      <span class="post-card__meta__date">Oct 19, 2018</span>
+    </div>
+
+    <h2 class="post-card__title">
+      <a title="How to measure a Team performance" href="/process/2018/10/19/how-to-measure-a-team-performance/">How to measure a Team performance</a>
+    </h2>
+
+  </div>
+</article>
+      
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Pagination links -->
+
+<div class="pagination clearfix">
+  
+
+  
 </div>
+  </div>
 
-        <section class="disqus">
-  <h5 class="separator">
-    <span class="separator__title">Comments</span>
-  </h5>
-  <div id="disqus_thread"></div>
-
-<script>
-  var disqus_config = function () {
-    this.page.url = "http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/";
-  };
-
-  (function() {
-    var d = document, s = d.createElement('script');
-
-    s.src = '//enricforngithubio.disqus.com/embed.js';
-
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</section>
-      </article>
-    </div>
-
-  </div> <!-- row-->
-</div> <!-- wrapper -->
+</div>
   </div>
 
   <script src="/js/jquery-2.1.4.min.js"></script>

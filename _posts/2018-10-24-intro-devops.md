@@ -2,7 +2,8 @@
 layout: post
 title: Intro DevOps
 categories: [DevOps]
-tags: [development, software]
+tags: [development, software, devops]
+author: eforn
 image: /images/posts/intro-devops/header.png
 ---
 
