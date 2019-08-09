@@ -15,6 +15,8 @@ github_username:  enricforn
 twitter_username: eforn
 linkedin_username: in/enricforn
 
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+gtag: "UA-9183934-11"
 markdown:  kramdown
 permalink: pretty
 paginate:  12
@@ -51,7 +53,7 @@ authors:
   eforn:
     name: Enric Forn
     display_name: Enric Forn
-    bio: Software development, software automation, DevOps, Learning, distributed teams
+    bio: Software development, software automation, DevOps, Innovation, distributed teams
     gravatar: https://ca.gravatar.com/userimage/31031445/c8f5726b05036ffefcbd5afbe484f2da.jpg
     linkedin: enricforn
     github: enricforn
