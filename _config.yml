@@ -8,7 +8,7 @@
 # Site settings
 title: Software engineering experiencies related blog
 email: enricfj@gmail.com
-description: Enric Forn  Innovation and Product Manager
+description: Enric Forn  Innovation and Architecture Product Manager
 baseurl:          '' # The subpath of your site, e.g. /blog
 url:              'https://enricforn.gihub.io/' # The base hostname & protocol for your site
 github_username:  enricforn

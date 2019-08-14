@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Software engineering experiencies related blog</title>
-    <description>Enric Forn  Innovation and Product Manager</description>
+    <description>Enric Forn  Innovation and Architecture Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Aug 2019 14:39:30 +0200</pubDate>
-    <lastBuildDate>Mon, 12 Aug 2019 14:39:30 +0200</lastBuildDate>
+    <pubDate>Wed, 14 Aug 2019 08:10:21 +0200</pubDate>
+    <lastBuildDate>Wed, 14 Aug 2019 08:10:21 +0200</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
 
     
