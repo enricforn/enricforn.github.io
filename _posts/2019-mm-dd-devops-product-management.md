@@ -7,12 +7,9 @@ author: eforn
 image: /images/posts/lessons-learned-devops/header.jpg
 ---
 
-### lorem ipsum.
-
-lorem ipsum
 
 
-- definition product management
+- definition product management: find de balance between design, your leadership and strategic view and empowerment of your team
 
 - definition devops
 
