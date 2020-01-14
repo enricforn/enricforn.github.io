@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Culture Code - Book Review
-categories: [DevOps]
-tags: [book, culture, team]
+categories: [leadership]
+tags: [book, culture, team, management]
 author: eforn
 image: /images/posts/book-the-culture-code/header.jpg
 ---
