@@ -1,7 +1,7 @@
-Personal blog of Enric Forn  ![Travis Status](https://api.travis-ci.org/enricforn/enricforn.github.io.svg?branch=master)
+Enric Forn's Personal Blog ![Travis Status](https://api.travis-ci.org/enricforn/enricforn.github.io.svg?branch=master)
 ========
 
-Hi there. I'm Enric Forn. I'm working on develop high quality software. Find in this blog my thoughts and experience automating development cycle of distributed software teams.
+Hi there. I'm Enric Forn. I'm working on develop high quality software. Find in this blog my thoughts and experiences automating development cycle of distributed software teams.
 
 ---
 
