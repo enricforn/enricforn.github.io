@@ -18,7 +18,7 @@
 
 - Run: jekyll build
 
-- Run: jekyll serve --trace --watch --incremental -future --draft
+- Run: jekyll serve --trace --watch --incremental --future --draft
 
 Recomendations:
 

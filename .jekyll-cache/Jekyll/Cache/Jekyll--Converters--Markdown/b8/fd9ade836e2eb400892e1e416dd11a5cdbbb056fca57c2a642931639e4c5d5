@@ -1,4 +1,4 @@
-I"V&<h3 id="if-you-are-responsible-for-technology-in-your-company-whether-as-cto-or-middle-manager-this-post-will-help-you-thrive-the-technology-evolution-inside-your-company-either-you-work-in-a-startup-or-a-big-organization-this-post-explain-xx-best-practices-to-guide-to-the-new-technology-paradigm">If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you thrive the technology evolution inside your company. Either you work in a startup or a big organization, this post explain xx best practices to guide to the new technology paradigm.</h3>
+I"c&<h3 id="if-you-are-responsible-for-technology-in-your-company-whether-as-cto-or-middle-manager-this-post-will-help-you-thrive-the-technology-evolution-inside-your-company-either-you-work-in-a-startup-or-a-big-organization-this-post-explain-xx-best-practices-to-guide-to-the-new-technology-paradigm">If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you thrive the technology evolution inside your company. Either you work in a startup or a big organization, this post explain xx best practices to guide to the new technology paradigm.</h3>
 
 <h2 id="committed-technology-manager">Committed Technology Manager</h2>
 
@@ -51,7 +51,7 @@
   </li>
 </ul>
 
-<p>Let’s take an example: you want to provide a platform were development team can easily deploy new container-based applications abstracting them from the complexity of build release and operation, a let them focusing on solve business needs. You consider launching at least theses projects in a program format:</p>
+<p>Let’s take an example: you want to provide a platform, where development teams can easily deploy new container-based applications, abstracted from the complexity of build, release and operation tasks. Therefore, you let them focus on solve business needs. You consider launching at least these projects in a program format:</p>
 
 <ul>
   <li>
@@ -62,7 +62,7 @@
   </li>
 </ul>
 
-<p>Adopting these technologies and tools not only implies installing them in your company, but also many teams in your organizations should change processes and behaviors.</p>
+<p>Adopting these technologies and tools not only implies installation and configuration, but also many teams in your organizations should change processes and behaviors.</p>
 
 <p>I suggest you to use a tool to organize your technology evolution (<a href="https://www.taskade.com/">taskade</a> is a great tool for this purpose), and build your roadmap applying explained best practices. Information included in this roadmap should give response to some of these questions:</p>
 
