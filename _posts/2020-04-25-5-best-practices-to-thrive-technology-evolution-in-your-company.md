@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Best Practices to Thrive through Technology Evolution in your Company
+title: 5 Best Practices to Thrive Technology Evolution in your Company
 categories: [leadership]
 tags: [transformation, leadership, innovation]
 author: eforn
