@@ -1,0 +1,23 @@
+I"/<h3 id="the-easiest-and-fastest-way-to-install-telnet-to-a-windows-server-2016-from-command-line">The easiest and fastest way to install telnet to a Windows Server 2016 from command-line</h3>
+
+<p>When trying to solve some kind of conectivity problem, I often use telnet. By default, windows machine do not preinstall telnet:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\&gt;telnet google.com 80
+'telnet' is not recognized as an internal or external command, operable program or batch file.
+C:\&gt;
+</code></pre></div></div>
+
+<p>You can easily install telnet from command-line with this short command:</p>
+
+<p>From standard command prompt command-line:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dism /online /Enable-Feature /FeatureName:TelnetClient
+</code></pre></div></div>
+
+<p>From powershell console:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Install-WindowsFeature -name Telnet-Client
+</code></pre></div></div>
+
+<p>Have fun!</p>
+:ET
