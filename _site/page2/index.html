@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TFS 2017 Package Management Feature for npm</title>
-  <meta name="description" content="In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuG...">
-  <link rel="canonical" href="http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/">
+  <title>Software engineering experiencies related blog</title>
+  <meta name="description" content="Enric Forn  Innovation and Architecture Product Manager">
+  <link rel="canonical" href="http://localhost:4000/page2/">
   <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="http://localhost:4000/feed.xml">
 
   
@@ -268,178 +268,50 @@
 
 </div>
 
-    
+    <div class="wrapper">
 
-
-
-<div class="wrapper">
   <div class="row row--full">
+    <div class="post-list">
+      
+        <article class="post-card-wrap column medium-6 large-4">
 
-    <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/tfs-package-management/header.png)"></div>
+  <div class="post-card">
+
+    <a href="/2020/04/18/whats-next-beyond-devops/" class="block" title="Whats Next Beyond Devops">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url()">
+        
+      </div>
+    </a>
+
+    <div class="post-card__meta">
+      <span class="post-card__meta__date">Apr 18, 2020</span>
     </div>
 
-    <div class="column column--center medium-12 large-10">
-      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+    <h2 class="post-card__title">
+      <a title="Whats Next Beyond Devops" href="/2020/04/18/whats-next-beyond-devops/">Whats Next Beyond Devops</a>
+    </h2>
 
-        
-          <meta itemprop="og:image" content="http://localhost:4000/images/posts/tfs-package-management/header.png">
-        
+  </div>
+</article>
+      
+    </div>
+  </div>
 
-        <header class="post__header">
-          <h2 class="post__title" itemprop="name headline">TFS 2017 Package Management Feature for npm</h2>
-          <time class="post__date" datetime="2017-01-31T00:00:00+01:00" itemprop="datePublished">Jan 31, 2017</time>
-          <div class="read_time" content=""><span class="reading-time" title="Estimated read time">
+  <div class="row row--full">
+    <!-- Pagination links -->
+
+<div class="pagination clearfix">
   
-  2 min read.
-</span></div>
-        </header>
+  <div class="column medium-6 large-6 left">
+    <a class="newer-posts" href="/"><div data-icon="ei-chevron-left"></div> <span>Previous</span></a>
+  </div>
+  
 
-        <div class="post-content" itemprop="articleBody">
-          <p>In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuGet (.NET libraries) and npm (javascript libraries).</p>
-
-<p>While you code your applications, you probably want to share libraries with other teams, in order to reuse code. Also you should supervise dependencies used by your applications, and you can reduce dependencies between them or avoid multiples packages doing the same action.</p>
-
-<p>To solve the first problem, you need to encapsule your code and then you can share that capsule. To solve de second problem, you need under control which dependencies can install the applications</p>
-
-<p>If you are using Visual Studio Team Services you can use (<a href="https://www.visualstudio.com/en-us/docs/package/overview">Package Management feature</a>) feature to store your packages. It supports two kinds of packages: npm and NuGet. I hope Package Management will support docker images in earlier versions.</p>
-
-<p>Let’s go configuring a npm package repo:</p>
-
-<p>Go to Package management feature, and add a new feed:</p>
-
-<p><img src="http://localhost:4000/images/package-management-1.PNG" alt="New Feed Creation" /></p>
-
-<p>Feed creation allows you to configure some options:</p>
-
-<ul>
-  <li>Name and Description for this repository.</li>
-  <li>Read permissions to this repository: only team members, or all members in the collection.</li>
-  <li>Contribute permissions: who can upload packages to this repository, team members or only project collection build service. This permission try to force the upload of packages from a build process.</li>
-  <li>Enabling check ‘Include packages from npmjs.org’,  uses npmjs.org as a secondary scoped registry. It’s interesting when you want to use private packages and public packages from npmjs.org.</li>
-</ul>
-
-<p>Once you have create your repository, you can connect to it:</p>
-
-<p><img src="http://localhost:4000/images/package-management-2.PNG" alt="Feed Connection" /></p>
-
-<p>You can choose whether the access is through NuGet or npm. In this example we choose npm:</p>
-
-<ul>
-  <li>Open a command-line.</li>
-  <li>Install the auth helper by running this command: ‘npm install -g vsts-npm-auth –registry https://registry.npmjs.com’</li>
-  <li>
-    <p>Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
-          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
-          always-auth=true
-<img src="http://localhost:4000/images/package-management-3.PNG" alt="File creation with powershell" /></p>
-
-    <p>Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
-          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
-          registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry</p>
-  </li>
-  <li>Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-<img src="http://localhost:4000/images/package-management-4.PNG" alt="Creating credentials to user profile folder" /></li>
-</ul>
-
-<p>It’s highly recommended to create two files:</p>
-
-<ul>
-  <li>One at the root project that contains the configuration for the whole team.</li>
-  <li>Another one to your home profile folder containing the your credentials in a secure mode.</li>
-</ul>
-
-<p>Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.</p>
-
-<p><img src="http://localhost:4000/images/package-management-5.PNG" alt="Publish npm package" /></p>
-
-<p>Now your package is ready for being installed to any application.</p>
-
-<p><img src="http://localhost:4000/images/package-management-6.PNG" alt="Web access view from a published npm package" /></p>
-
-<p>Enjoy sharing code from your feeds with your colleagues!</p>
-
-          <div class="post__tags">
-            
-              <a href="/tag/TFS">TFS</a>
-            
-              <a href="/tag/Package Management">Package Management</a>
-            
-              <a href="/tag/ALM">ALM</a>
-            
-              <a href="/tag/npm">npm</a>
-            
-          </div>
-        </div>
-
-        <hr>
-
-        
-
-        
-
-<ul class="share-list">
-  <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=TFS 2017 Package Management Feature for npm&url=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
-      <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
-    </a>
-  </li>
-  <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/" rel="nofollow" target="_blank" title="Share on Facebook">
-    <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
-    </a>
-  </li>
-  <li>
-    <a class="share-list__link" href="https://plus.google.com/share?url=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/" rel="nofollow" target="_blank" title="Share on Google+">
-    <div data-icon="ei-sc-google-plus" data-size="s" class="share-list__icon share-list__icon--google"></div>
-    </a>
-  </li>
-</ul>
-
-        <h5 class="separator">
-  <span class="separator__title">Newsletter</span>
-</h5>
-
-<div class="box box--news-letter">
-  <form action="https://github.us3.list-manage.com/subscribe/post?u=245806d3391073c9b861bb703&amp;id=88b086673f" method="post" target="_blank">
-    <div class="row">
-      <div class="column medium-9 large-9">
-        <input type="email" name="EMAIL" placeholder="">
-      </div>
-      <div class="column medium-3 large-3">
-        <input type="submit" class="button button--expand" value="SIGN UP">
-      </div>
-    </div>
-  </form>
+  
 </div>
+  </div>
 
-        <section class="disqus">
-  <h5 class="separator">
-    <span class="separator__title">Comments</span>
-  </h5>
-  <div id="disqus_thread"></div>
-
-<script>
-  var disqus_config = function () {
-    this.page.url = "http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/";
-  };
-
-  (function() {
-    var d = document, s = d.createElement('script');
-
-    s.src = '//enricforngithubio.disqus.com/embed.js';
-
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</section>
-      </article>
-    </div>
-
-  </div> <!-- row-->
-</div> <!-- wrapper -->
+</div>
   </div>
 
   <script src="/js/jquery-2.1.4.min.js"></script>

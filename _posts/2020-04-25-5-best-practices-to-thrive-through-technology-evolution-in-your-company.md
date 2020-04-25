@@ -29,7 +29,7 @@ Make sure that your roadmap provides answers to all of the likely problems that 
 You can follow these practices to build a much more feasible roadmap:
 
 ### **1. Get vibes from all stakeholders.**
-You should get feedback from all stakeholders. It allows you to create an inclusive roadmap, and align different needs. By adding all perspectives in your plan, ensure alignment throughout the organization. Stakeholders' examples:
+You should get feedback from all stakeholders. It allows you to create an inclusive roadmap, and align different needs. By adding all perspectives in your plan, ensure alignment throughout the organization. Stakeholders examples:
 
 * **TOP Management**: Your plan must give answers to their questions. Of course they want software and infrastructure with the latest technology, but they are responsible for many other aspects of the company. Each project in your program must contain a rational response of the benefits, and an approximate date of when it will be effective.
 
