@@ -7,7 +7,7 @@ author: eforn
 image: /images/posts/thrive-technology-evolution/header.jpg
 ---
 
-### If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you to thrive through as a result of the technology evolution inside your company. If you work in a startup or a big organization, this post will show you 5 best practices to elevate your company to the new technology paradigm.
+### If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you to thrive the technology evolution in your company. If you work in a startup or a big organization, this post will show you 5 best practices to elevate your company to the new technology paradigm.
 
 ## **Committed Technology Manager**
 
