@@ -22,7 +22,10 @@ permalink: pretty
 paginate:  12
 
 plugins:
+  - jekyll-include-cache
   - jekyll-paginate
+# - jekyll-sitemap
+# - jekyll-feed
   - jekyll/tagging
 
 include:

@@ -5,10 +5,154 @@
     <description>Enric Forn  Innovation and Architecture Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jan 2020 22:51:53 +0100</pubDate>
-    <lastBuildDate>Tue, 14 Jan 2020 22:51:53 +0100</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <pubDate>Sat, 25 Apr 2020 17:52:06 +0200</pubDate>
+    <lastBuildDate>Sat, 25 Apr 2020 17:52:06 +0200</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
 
+    
+      <item>
+        <title>Accelerate - The Science of Lean Software and DevOps - Book Review</title>
+        <description>&lt;h3 id=&quot;in-this-post-you-will-find-&quot;&gt;In this post you will find .&lt;/h3&gt;
+</description>
+        <pubDate>Sun, 31 May 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/devops/2020/05/31/accelerate-book-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/devops/2020/05/31/accelerate-book-review/</guid>
+      </item>
+    
+      <item>
+        <title>5 Best Practices to Thrive trhough Technology Evolution in your Company</title>
+        <description>&lt;h3 id=&quot;if-you-are-responsible-for-technology-in-your-company-whether-as-cto-or-middle-manager-this-post-will-help-you-to-thrive-through-as-a-result-of-the-technology-evolution-inside-your-company-if-you-work-in-a-startup-or-a-big-organization-this-post-will-show-you-5-best-practices-to-elevate-your-company-to-the-new-technology-paradigm&quot;&gt;If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you to thrive through as a result of the technology evolution inside your company. If you work in a startup or a big organization, this post will show you 5 best practices to elevate your company to the new technology paradigm.&lt;/h3&gt;
+
+&lt;h2 id=&quot;committed-technology-manager&quot;&gt;&lt;strong&gt;Committed Technology Manager&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Are you are the kind of person who loves learning about cutting edge technologies, discussing with your peers about different ways of using a tool or language (probably nowadays it would be Terraform, GO, RUST, Python, …), or how to use new development practices to improve your development lifecycle, such as XP, Agile, Lean or DevOps…? Is Everything going right and you are having fun? Do you want to go a step further, so your company can benefit from your knowledge about technology? Isn’t that why you write an ideal roadmap which your company should invest in to perform better at delivering software ? Up to now, everything is working fine? You’ve been working for many years in the IT industry, starting from the grassroots. You caught the new vibes from the latest cutting edge technology trends. You are prepared to lead your company’s technology evolution. You truly believe that the company should provide a budget for this program and run it to stay competitive.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-stakeholders-do-not-understand-my-evolution-roadmap&quot;&gt;&lt;strong&gt;My Stakeholders Do Not Understand My Evolution Roadmap&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Your roadmap seems to be perfect, and it’s completely aligned to the latest technology trends. You then share the plan and the program with the development team. Although your plan is focused on the development team, in order to improve their deliveries and make their life easier, they do not feel comfortable with your plan. Your roadmap requires too much effort to learn new tools, and to change processes, beyond the volume of business deliverables they have with current apps. They think your plan is great but not feasible. You feel disappointed. You don’t understand why developers want to continue working in the same way, and with the same technology and tools.&lt;/p&gt;
+
+&lt;p&gt;But your nightmare doesn’t ends here. When the roadmap is exposed to your CEO, simple questions follow: “How much money will this tranformation program cost the company ? What is the estimated date to put it into production environment?” In your mind the answers are: “The program will cost whatever it is worth, and we’ll be using these enablers as soon as possible”. You bite your tongue as you know they are not the right answers. TOP Management must always have the answers in terms of COST and TIME.&lt;/p&gt;
+
+&lt;h2 id=&quot;others-walked-this-way&quot;&gt;&lt;strong&gt;Others Walked This Way&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;From my personal experience, for evolution projects to be successful, you must align different goals: delivering software, estimating ROI in terms of quality, cost or time to market, and assuring the development team that their life will be easier. Another point worth considering is getting feedback from all stakeholders. 
+Make sure that your roadmap provides answers to all of the likely problems that will be raised in the feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-the-plan&quot;&gt;&lt;strong&gt;This Is The Plan&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can follow these practices to build a much more feasible roadmap:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-get-vibes-from-all-stakeholders&quot;&gt;&lt;strong&gt;1. Get vibes from all stakeholders.&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You should get feedback from all stakeholders. It allows you to create an inclusive roadmap, and align different needs. By adding all perspectives in your plan, ensure alignment throughout the organization. Stakeholders’ examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TOP Management&lt;/strong&gt;: Your plan must give answers to their questions. Of course they want software and infrastructure with the latest technology, but they are responsible for many other aspects of the company. Each project in your program must contain a rational response of the benefits, and an approximate date of when it will be effective.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;: These people live in the real world, using a production software system. It’s important to know their experience and to improve it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Development Team&lt;/strong&gt;: They receive pressure from the business directly and they do not have time to innovate or to learn new languages or techniques. Their aim is to build the desired software for business in the expected time and cost. They want to focus on business, no matter which toolchain they use, neither the most advanced tooling nor scripting.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;IT Industry&lt;/strong&gt;: They are the easiest. Like you, they enjoy learning about cutting edge technologies and experimenting with new software and techniques, they believe in choosing what is best for the organization.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-detail-constraints-or-restrictions-inside-your-organization&quot;&gt;2. &lt;strong&gt;Detail constraints or restrictions inside your organization&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Tools, frameworks and technology need custom changes to fit in every organization. For example, to operate a business under a regulatory environment requires compliance with certain rules. Knowing constraints and pains will make it easier to identify risks in your projects, and to include solutions in your roadmap, which will help to increase the interests of your stakeholders. By adopting new tools, techniques or languages, you will enable your stakeholders to learn new features to be added in their products, or to change the way they do something to an easier, less costly or time efficient way.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-include-a-budget-to-enable-the-adoption&quot;&gt;3. &lt;strong&gt;Include a budget to enable the adoption&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Consider a certain amount of the budget to help people learn how to use new tools or frameworks. Otherwise they will not be able to run with your brand new plan and the program will fail. Allocate part of the bugdet for adoption, as it will give the customers a chance to validate new capacities and time to learn how to use them.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-detail-projects-appropiately&quot;&gt;4. &lt;strong&gt;Detail projects appropiately.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;I highly recommend the usage of the &lt;a href=&quot;https://thedigitalprojectmanager.com/project-objectives/&quot;&gt;SMART Framework&lt;/a&gt; to define each project on the roadmap. The method will help you manage the expectations of your stakeholders, and communicate your plan in an accessible language so everyone understands what you want to do, and what can be achieved.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-review-your-roadmap-regularly&quot;&gt;5. &lt;strong&gt;Review your roadmap regularly.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;You should include a mechanism that allows you to adapt some points of the projects’ roadmap whilst being executed. I recommend that you  include regularly milestones to deliver value (for example every two months). In these reviews you can readapt defined projects, or add/remove projects, and fit a continuous evolution roadmap of technology.&lt;/p&gt;
+
+&lt;h2 id=&quot;roadmap-evolution-example&quot;&gt;&lt;strong&gt;Roadmap Evolution Example&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Let’s make an example: You want to provide a platform where the development teams can easily deploy new container-based applications, abstracting them from the complexity of build, release and operational tasks, and let them focusing on solving business needs. You consider launching at least these projects in a program format:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;New &lt;a href=&quot;https://kubernetes.io/&quot;&gt;K8s&lt;/a&gt; cluster in &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;AWS&lt;/a&gt; provisioned and operated with &lt;a href=&quot;https://www.terraform.io/&quot;&gt;Terraform&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tooling based on &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;Gitlab&lt;/a&gt; and &lt;a href=&quot;https://jenkins-x.io/&quot;&gt;Jenkins X&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adopting these technologies and tools not only implies installing and configuration, but also the changing of processes and behaviors of many teams in your organization.&lt;/p&gt;
+
+&lt;p&gt;I suggest you use a tool to organize your technology evolution (&lt;a href=&quot;https://www.taskade.com/&quot;&gt;taskade&lt;/a&gt; is a great tool for this purpose), and build your roadmap applying the explained best practices. Information included in the roadmap should be in response to some of these points:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A common goal with which all of your stakeholders are aligned.&lt;/strong&gt; For example: improve Business Agility by creating and delivering digital products and services.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How much it will cost.&lt;/strong&gt; Although you can’t accurately predict the cost, it should provide a High Level Estimation for the execution of these projects:&lt;/p&gt;
+
+    &lt;p&gt;· Time Material (consultancy, implementation, enablers, adoption).&lt;/p&gt;
+
+    &lt;p&gt;· Infrastructure.&lt;/p&gt;
+
+    &lt;p&gt;· Cost of maintenance in production (Licensing, Support Services, …).&lt;/p&gt;
+
+    &lt;p&gt;· Any other likely costs required for the projects.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How you will measure the success of your goal.&lt;/strong&gt; To establish key performance indicators, will enable to report progress based on empirical arguments, not feelings. In this example we should use the followings:&lt;/p&gt;
+
+    &lt;p&gt;· Lead Time: time reduction of 20% converting a defined product to an operational product or service.&lt;/p&gt;
+
+    &lt;p&gt;· Mean Time To Recover Service: time reduction of 30% by detecting the root cause of an outage and activating the fix in production.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;When the new platform and toolchain are in use.&lt;/strong&gt; For each technology you should set the basic milestones every two months. Let’s see the example of Kubernetes:&lt;/p&gt;
+
+    &lt;p&gt;· Milestone 1: Kubernetes up and running.&lt;/p&gt;
+
+    &lt;p&gt;· Milestone 2: Showcase application running in K8s.&lt;/p&gt;
+
+    &lt;p&gt;· Milestone 3: First production application running in K8s.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Support needed to use this platform and tooling.&lt;/strong&gt; In this example there should be a platform team responsible for productivity and constant evolution of the platform. This team should also have the role of enablers, helping everyone to learn how to use this brand new platform.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;takeaways&quot;&gt;&lt;strong&gt;Takeaways&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Aligning all involved stakeholders is critical to get the approval of your evolution roadmap.&lt;/p&gt;
+
+&lt;p&gt;Constantly measure, review and offer feedback of the progress of each project, provide visibility of the work and give enough information to drive the roadmap in the correct direction.&lt;/p&gt;
+
+&lt;p&gt;I hope it helps you design your own roadmap evolution.&lt;/p&gt;
+
+&lt;p&gt;Don’t hesitate to contact me if you want further information.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/leadership/2020/04/25/5-best-practices-to-thrive-through-technology-evolution-in-your-company/</link>
+        <guid isPermaLink="true">http://localhost:4000/leadership/2020/04/25/5-best-practices-to-thrive-through-technology-evolution-in-your-company/</guid>
+      </item>
+    
+      <item>
+        <title>Whats Next Beyond Devops</title>
+        <description>
+</description>
+        <pubDate>Sat, 18 Apr 2020 17:37:30 +0200</pubDate>
+        <link>http://localhost:4000/2020/04/18/whats-next-beyond-devops/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/04/18/whats-next-beyond-devops/</guid>
+      </item>
     
       <item>
         <title>The Culture Code - Book Review</title>
@@ -599,6 +743,16 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <link>http://localhost:4000/about.html</link>
           </item>
         
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
       
     
       
