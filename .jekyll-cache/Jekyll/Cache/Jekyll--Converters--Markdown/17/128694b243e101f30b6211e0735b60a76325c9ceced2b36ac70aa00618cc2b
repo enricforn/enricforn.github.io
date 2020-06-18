@@ -1,4 +1,4 @@
-I"�<p>In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuGet (.NET libraries) and npm (javascript libraries).</p>
+I"�<p>In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuGet (.NET libraries) and npm (javascript libraries).</p>
 
 <p>While you code your applications, you probably want to share libraries with other teams, in order to reuse code. Also you should supervise dependencies used by your applications, and you can reduce dependencies between them or avoid multiples packages doing the same action.</p>
 
@@ -10,7 +10,7 @@
 
 <p>Go to Package management feature, and add a new feed:</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-1.PNG" alt="New Feed Creation" /></p>
+<p><img src="http://localhost:4000/images/package-management-1.PNG" alt="New Feed Creation" /></p>
 
 <p>Feed creation allows you to configure some options:</p>
 
@@ -23,7 +23,7 @@
 
 <p>Once you have create your repository, you can connect to it:</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-2.PNG" alt="Feed Connection" /></p>
+<p><img src="http://localhost:4000/images/package-management-2.PNG" alt="Feed Connection" /></p>
 
 <p>You can choose whether the access is through NuGet or npm. In this example we choose npm:</p>
 
@@ -34,14 +34,14 @@
     <p>Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
           always-auth=true
-<img src="https://enricforn.gihub.io//images/package-management-3.PNG" alt="File creation with powershell" /></p>
+<img src="http://localhost:4000/images/package-management-3.PNG" alt="File creation with powershell" /></p>
 
     <p>Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry</p>
   </li>
   <li>Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-<img src="https://enricforn.gihub.io//images/package-management-4.PNG" alt="Creating credentials to user profile folder" /></li>
+<img src="http://localhost:4000/images/package-management-4.PNG" alt="Creating credentials to user profile folder" /></li>
 </ul>
 
 <p>It’s highly recommended to create two files:</p>
@@ -53,11 +53,11 @@
 
 <p>Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-5.PNG" alt="Publish npm package" /></p>
+<p><img src="http://localhost:4000/images/package-management-5.PNG" alt="Publish npm package" /></p>
 
 <p>Now your package is ready for being installed to any application.</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-6.PNG" alt="Web access view from a published npm package" /></p>
+<p><img src="http://localhost:4000/images/package-management-6.PNG" alt="Web access view from a published npm package" /></p>
 
 <p>Enjoy sharing code from your feeds with your colleagues!</p>
 :ET

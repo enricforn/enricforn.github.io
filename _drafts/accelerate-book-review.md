@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Accelerate - The Science of Lean Software and DevOps - Book Review
-published: false
 categories: [DevOps]
 tags: [book, software, lean, devops]
 author: eforn
@@ -15,6 +14,8 @@ image: /images/posts/book-accelerate/header.jpg
 This book, not only is written by the most influencers of DevOps movement, but also is reviewed and referenced by recognized people of IT industry like Martin Fowler, Chief Scientist for ThoughtWorks, and Courtney Kissler, Vice President of Global Technology for Nike.
 
 Their journey starts running a worldwide study, asking about their habits or how people develop software. Year by year writters were iterating the questions to collect information, based on the conclusions extract from the results of previous years. You can find detailed results in the DevOps State Report in this ([link](https://itrevolution.com/devops-research/)).
+
+Apply data science practices to it industry
 
 ##1st Part: Key Factors Which Drive Organizational Performance
 

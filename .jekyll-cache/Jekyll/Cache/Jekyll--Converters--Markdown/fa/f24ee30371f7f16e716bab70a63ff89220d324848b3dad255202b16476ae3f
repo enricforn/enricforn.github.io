@@ -1,4 +1,4 @@
-I"6<h3 id="describing-on-how-to-connect-your-build-server-to-a-team-project-on-visual-studio-team-services">Describing on how to connect your Build server to a team project on Visual Studio Team Services</h3>
+I"<h3 id="describing-on-how-to-connect-your-build-server-to-a-team-project-on-visual-studio-team-services">Describing on how to connect your Build server to a team project on Visual Studio Team Services</h3>
 
 <p>In this post I suppose you are familiar to Visual Studio Team Services (from now VSTS). I’m gonna explain briefly how you can configure your own build server hosted on premise.</p>
 
@@ -14,11 +14,11 @@
 
 <p>Access your admin panel to download the agent:</p>
 
-<p><img src="https://enricforn.gihub.io//images/download-agent.PNG" alt="Build Service Configuration" /></p>
+<p><img src="http://localhost:4000/images/download-agent.PNG" alt="Build Service Configuration" /></p>
 
 <p>Depending on your platform, download the appropriate agent:</p>
 
-<p><img src="https://enricforn.gihub.io//images/download-agent-2.PNG" alt="Download agent depending on your platform" /></p>
+<p><img src="http://localhost:4000/images/download-agent-2.PNG" alt="Download agent depending on your platform" /></p>
 
 <p>Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.</p>
 
@@ -28,15 +28,15 @@
 
 <p>Before running the agent configuration, you need to create a personal access token to access for VSTS:</p>
 
-<p><img src="https://enricforn.gihub.io//images/agent-config-2.PNG" alt="Creating a personal access token" /></p>
+<p><img src="http://localhost:4000/images/agent-config-2.PNG" alt="Creating a personal access token" /></p>
 
 <p>If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:</p>
 
-<p><img src="https://enricforn.gihub.io//images/agent-config-1.PNG" alt="Configuring build agent VSTS" /></p>
+<p><img src="http://localhost:4000/images/agent-config-1.PNG" alt="Configuring build agent VSTS" /></p>
 
 <p>As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:</p>
 
-<p><img src="https://enricforn.gihub.io//images/agent-config-3.PNG" alt="Configured build agent VSTS" /></p>
+<p><img src="http://localhost:4000/images/agent-config-3.PNG" alt="Configured build agent VSTS" /></p>
 
 <p>#Configure Build Agent in TFS2013</p>
 
@@ -46,10 +46,10 @@
 
 <p>After the port service is opened you can configure the agent by running ./configure.cmd from command line:</p>
 
-<p><img src="https://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG" alt="Configured build agent VSTS" /></p>
+<p><img src="http://localhost:4000/images/Configure-agent-powershell-command.PNG" alt="Configured build agent VSTS" /></p>
 
 <p>In windows environment, create agent as service, allows you to manage service from server without access to VSTS:</p>
 
-<p><img src="https://enricforn.gihub.io//images/Agent-created-as-a-service.PNG" alt="VSTS Build Agent configured as service" /></p>
+<p><img src="http://localhost:4000/images/Agent-created-as-a-service.PNG" alt="VSTS Build Agent configured as service" /></p>
 
 :ET

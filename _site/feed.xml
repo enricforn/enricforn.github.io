@@ -3,10 +3,10 @@
   <channel>
     <title>Software engineering experiencies related blog</title>
     <description>Enric Forn  Innovation and Architecture Product Manager</description>
-    <link>https://enricforn.gihub.io//</link>
-    <atom:link href="https://enricforn.gihub.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Apr 2020 21:54:18 +0200</pubDate>
-    <lastBuildDate>Sat, 25 Apr 2020 21:54:18 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 18 Jun 2020 13:14:10 +0200</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2020 13:14:10 +0200</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -132,8 +132,8 @@ Make sure that your roadmap provides answers to all of the likely problems that 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
         <pubDate>Sat, 25 Apr 2020 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//leadership/2020/04/25/5-best-practices-to-thrive-technology-evolution-in-your-company/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//leadership/2020/04/25/5-best-practices-to-thrive-technology-evolution-in-your-company/</guid>
+        <link>http://localhost:4000/leadership/2020/04/25/5-best-practices-to-thrive-technology-evolution-in-your-company/</link>
+        <guid isPermaLink="true">http://localhost:4000/leadership/2020/04/25/5-best-practices-to-thrive-technology-evolution-in-your-company/</guid>
       </item>
     
       <item>
@@ -226,8 +226,8 @@ You will also find a lot of useful information and references that the author us
 
 </description>
         <pubDate>Tue, 14 Jan 2020 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//leadership/2020/01/14/the-culture-code-book-review/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//leadership/2020/01/14/the-culture-code-book-review/</guid>
+        <link>http://localhost:4000/leadership/2020/01/14/the-culture-code-book-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/leadership/2020/01/14/the-culture-code-book-review/</guid>
       </item>
     
       <item>
@@ -317,8 +317,8 @@ You will also find a lot of useful information and references that the author us
 &lt;p&gt;Thank you for reading!&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Aug 2019 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//devops/2019/08/09/five-lessons-learned-from-devops-journey/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//devops/2019/08/09/five-lessons-learned-from-devops-journey/</guid>
+        <link>http://localhost:4000/devops/2019/08/09/five-lessons-learned-from-devops-journey/</link>
+        <guid isPermaLink="true">http://localhost:4000/devops/2019/08/09/five-lessons-learned-from-devops-journey/</guid>
       </item>
     
       <item>
@@ -330,8 +330,8 @@ You will also find a lot of useful information and references that the author us
 &lt;p&gt;You can take a look at this support &lt;a href=&quot;https://slides.com/enricforn/what-is-devops&quot;&gt;Intro DevOPs&lt;/a&gt; I used to guide my speech.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Oct 2018 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//devops/2018/10/24/intro-devops/</guid>
+        <link>http://localhost:4000/devops/2018/10/24/intro-devops/</link>
+        <guid isPermaLink="true">http://localhost:4000/devops/2018/10/24/intro-devops/</guid>
       </item>
     
       <item>
@@ -357,8 +357,8 @@ You will also find a lot of useful information and references that the author us
 &lt;p&gt;&lt;strong&gt;Team Morale&lt;/strong&gt;: is the enthusiasm and persistence with which a member of a team engages in the prescribed activities of that group’ (Manning, 1991)&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//process/2018/10/19/how-to-measure-a-team-performance/</guid>
+        <link>http://localhost:4000/process/2018/10/19/how-to-measure-a-team-performance/</link>
+        <guid isPermaLink="true">http://localhost:4000/process/2018/10/19/how-to-measure-a-team-performance/</guid>
       </item>
     
       <item>
@@ -387,8 +387,8 @@ C:\&amp;gt;
 &lt;p&gt;Have fun!&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Jul 2017 00:00:00 +0200</pubDate>
-        <link>https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
+        <link>http://localhost:4000/windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</link>
+        <guid isPermaLink="true">http://localhost:4000/windows/2017/07/05/windows-server-2016-install-telnet-from-command-line/</guid>
       </item>
     
       <item>
@@ -405,7 +405,7 @@ C:\&amp;gt;
 
 &lt;p&gt;Go to Package management feature, and add a new feed:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-1.PNG&quot; alt=&quot;New Feed Creation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Feed creation allows you to configure some options:&lt;/p&gt;
 
@@ -418,7 +418,7 @@ C:\&amp;gt;
 
 &lt;p&gt;Once you have create your repository, you can connect to it:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-2.PNG&quot; alt=&quot;Feed Connection&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can choose whether the access is through NuGet or npm. In this example we choose npm:&lt;/p&gt;
 
@@ -429,14 +429,14 @@ C:\&amp;gt;
     &lt;p&gt;Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
           always-auth=true
-&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/package-management-3.PNG&quot; alt=&quot;File creation with powershell&quot; /&gt;&lt;/p&gt;
 
     &lt;p&gt;Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;http://localhost:4000/images/package-management-4.PNG&quot; alt=&quot;Creating credentials to user profile folder&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;It’s highly recommended to create two files:&lt;/p&gt;
@@ -448,17 +448,17 @@ C:\&amp;gt;
 
 &lt;p&gt;Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-5.PNG&quot; alt=&quot;Publish npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now your package is ready for being installed to any application.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/package-management-6.PNG&quot; alt=&quot;Web access view from a published npm package&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Enjoy sharing code from your feeds with your colleagues!&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
+        <link>http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</link>
+        <guid isPermaLink="true">http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/</guid>
       </item>
     
       <item>
@@ -510,8 +510,8 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 &lt;p&gt;If you encounter the same issue, hope this helps.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
+        <link>http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/</link>
+        <guid isPermaLink="true">http://localhost:4000/aws/2017/01/18/Install-AWSCli-On-Windows/</guid>
       </item>
     
       <item>
@@ -532,11 +532,11 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;Access your admin panel to download the agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/download-agent.PNG&quot; alt=&quot;Build Service Configuration&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Depending on your platform, download the appropriate agent:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/download-agent-2.PNG&quot; alt=&quot;Download agent depending on your platform&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Regardless which agent you configure, you should create a specific user to run this service. This user needs powerful permissions to do many tasks on your environment, and you should secure it.&lt;/p&gt;
 
@@ -546,15 +546,15 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;Before running the agent configuration, you need to create a personal access token to access for VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-2.PNG&quot; alt=&quot;Creating a personal access token&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are using VSTS or TFS15 then download standard image and run ./config.cmd from command line to configure, its pretty easy:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-1.PNG&quot; alt=&quot;Configuring build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see in the image below, build agents are configured and running have a green flag. On the right side, you can see a list of builds that previously ran:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/agent-config-3.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;#Configure Build Agent in TFS2013&lt;/p&gt;
 
@@ -564,16 +564,16 @@ aws-cli/1.11.38 Python/3.6.0 Windows/10 botocore/1.5.1&lt;/p&gt;
 
 &lt;p&gt;After the port service is opened you can configure the agent by running ./configure.cmd from command line:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Configure-agent-powershell-command.PNG&quot; alt=&quot;Configured build agent VSTS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In windows environment, create agent as service, allows you to manage service from server without access to VSTS:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://enricforn.gihub.io//images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/Agent-created-as-a-service.PNG&quot; alt=&quot;VSTS Build Agent configured as service&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 02 Nov 2016 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
+        <link>http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20studio/builds/2016/11/02/Visual-Studio-Team-Services-Build-Service-On-Premise/</guid>
       </item>
     
       <item>
@@ -639,8 +639,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 &lt;p&gt;Hope it helps and you save time to solve this problems.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
+        <link>http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</link>
+        <guid isPermaLink="true">http://localhost:4000/tfs/visual%20studio/2015/02/23/access-workItemstore-tfs/</guid>
       </item>
     
       <item>
@@ -648,8 +648,8 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
         <description>&lt;p&gt;Hi all. Welcome to personal blog of Enric Forn. I will write in english, but also in catalan or spanish language. I will post about software engineering, software automation and distributed teams.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Feb 2015 00:00:00 +0100</pubDate>
-        <link>https://enricforn.gihub.io//general/2015/02/21/welcome/</link>
-        <guid isPermaLink="true">https://enricforn.gihub.io//general/2015/02/21/welcome/</guid>
+        <link>http://localhost:4000/general/2015/02/21/welcome/</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2015/02/21/welcome/</guid>
       </item>
     
 
@@ -707,7 +707,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
 
 
     &lt;/pre&gt;</description>
-            <link>https://enricforn.gihub.io//404.html</link>
+            <link>http://localhost:4000/404.html</link>
           </item>
         
       
@@ -722,7 +722,7 @@ StackTrace:    at Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.Dat
             <title>About</title>
             <description>&lt;p&gt;Love mountain-biking and montaineering. Learning how to improve software development.&lt;/p&gt;
 </description>
-            <link>https://enricforn.gihub.io//about.html</link>
+            <link>http://localhost:4000/about.html</link>
           </item>
         
       

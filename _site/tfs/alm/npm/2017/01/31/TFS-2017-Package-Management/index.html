@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TFS 2017 Package Management Feature for npm</title>
   <meta name="description" content="In this post I’ll explain briefly how to work with Visual Studio Package Management for npm. I suppose you are familiar with Visual Studio Team Services, NuG...">
-  <link rel="canonical" href="https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/">
-  <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="https://enricforn.gihub.io//feed.xml">
+  <link rel="canonical" href="http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/">
+  <link rel="alternate" type="application/rss+xml" title="Software engineering experiencies related blog" href="http://localhost:4000/feed.xml">
 
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -275,7 +275,7 @@
       <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
         
-          <meta itemprop="og:image" content="https://enricforn.gihub.io//images/posts/tfs-package-management/header.png">
+          <meta itemprop="og:image" content="http://localhost:4000/images/posts/tfs-package-management/header.png">
         
 
         <header class="post__header">
@@ -300,7 +300,7 @@
 
 <p>Go to Package management feature, and add a new feed:</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-1.PNG" alt="New Feed Creation" /></p>
+<p><img src="http://localhost:4000/images/package-management-1.PNG" alt="New Feed Creation" /></p>
 
 <p>Feed creation allows you to configure some options:</p>
 
@@ -313,7 +313,7 @@
 
 <p>Once you have create your repository, you can connect to it:</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-2.PNG" alt="Feed Connection" /></p>
+<p><img src="http://localhost:4000/images/package-management-2.PNG" alt="Feed Connection" /></p>
 
 <p>You can choose whether the access is through NuGet or npm. In this example we choose npm:</p>
 
@@ -324,14 +324,14 @@
     <p>Add your registry manually to your project by creating and .npmrc file at the root project, and adding the following configuration:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages/npm/registry
           always-auth=true
-<img src="https://enricforn.gihub.io//images/package-management-3.PNG" alt="File creation with powershell" /></p>
+<img src="http://localhost:4000/images/package-management-3.PNG" alt="File creation with powershell" /></p>
 
     <p>Note that you can configure the access to this repository to download only release packages, prerelease or both, by adding a parameter:
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Release/npm/registry
           registry=https://enformat.pkgs.visualstudio.com/_packaging/npm-packages@Prerelease/npm/registry</p>
   </li>
   <li>Store credentials to home folder, by running the following command: ‘vsts-npm-auth -config .npmrc’. By running this command, the app asks for the credentials to store in the .npmrc file on your profile folder. In this example, I’m using Windows 10, and file was created to C:\Users\enric.npmrc.
-<img src="https://enricforn.gihub.io//images/package-management-4.PNG" alt="Creating credentials to user profile folder" /></li>
+<img src="http://localhost:4000/images/package-management-4.PNG" alt="Creating credentials to user profile folder" /></li>
 </ul>
 
 <p>It’s highly recommended to create two files:</p>
@@ -343,11 +343,11 @@
 
 <p>Once we’ve configured our package with the url and the credentials to access to the feed, we’re ready to publish that package. This action is as easy typing command npm publish.</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-5.PNG" alt="Publish npm package" /></p>
+<p><img src="http://localhost:4000/images/package-management-5.PNG" alt="Publish npm package" /></p>
 
 <p>Now your package is ready for being installed to any application.</p>
 
-<p><img src="https://enricforn.gihub.io//images/package-management-6.PNG" alt="Web access view from a published npm package" /></p>
+<p><img src="http://localhost:4000/images/package-management-6.PNG" alt="Web access view from a published npm package" /></p>
 
 <p>Enjoy sharing code from your feeds with your colleagues!</p>
 
@@ -372,17 +372,17 @@
 
 <ul class="share-list">
   <li>
-    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=TFS 2017 Package Management Feature for npm&url=https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=TFS 2017 Package Management Feature for npm&url=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/&via=eforn&related=eforn" rel="nofollow" target="_blank" title="Share on Twitter">
       <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://facebook.com/sharer.php?u=https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/" rel="nofollow" target="_blank" title="Share on Facebook">
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/" rel="nofollow" target="_blank" title="Share on Facebook">
     <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
     </a>
   </li>
   <li>
-    <a class="share-list__link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/&title=TFS 2017 Package Management Feature for npm&summary=&source=Software engineering experiencies related blog"" | uri_escape}}" target="_blank" 
+    <a class="share-list__link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/&title=TFS 2017 Package Management Feature for npm&summary=&source=Software engineering experiencies related blog"" | uri_escape}}" target="_blank" 
                                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                                 title="Share on LinkedIn">
     <div data-icon="ei-sc-linkedin" data-size="s" class="share-list__icon--linkedin"></div>
@@ -415,7 +415,7 @@
 
 <script>
   var disqus_config = function () {
-    this.page.url = "https://enricforn.gihub.io//tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/";
+    this.page.url = "http://localhost:4000/tfs/alm/npm/2017/01/31/TFS-2017-Package-Management/";
   };
 
   (function() {
