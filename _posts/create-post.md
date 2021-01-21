@@ -4,7 +4,7 @@
 
 - Install Jekyll from ruby gem (https://jekyllrb.com/docs/installation/windows/):
 
-    · Install ruby with devkit (https://rubyinstaller.org/downloads/).
+    · Install ruby with devkit (https://rubyinstaller.org/downloads/) or choco install ruby.
 
     · Run ridk install.
 

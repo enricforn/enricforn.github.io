@@ -7,6 +7,8 @@ author: eforn
 image: /images/posts/learning-path-2020/header.jpg
 ---
 
+Thank you everyone who helped me on walking this path: from Anna helping me improving my English, Marta giving me away time to learn and my colleagues recommending to explore new fields. This post help me to make my learning path visible and encourage me to continue learning next year.
+
 ## Books read
 
 [Organize for Innovation](https://opensource.com/open-organization/resources/organize-innovation) by Jim Whitehurst
@@ -33,7 +35,17 @@ image: /images/posts/learning-path-2020/header.jpg
 
 ([Product Management: Building a Product Roadmap](https://www.linkedin.com/learning/product-management-building-a-product-roadmap/next-steps))
 
+([Business Transformation with Google Cloud](https://www.coursera.org/learn/business-transformation-google-cloud))
+
+([Leading by Example: Be an Insatiable Leader]())
+
 ## Events assistance
 
 ([Redhat Forum Madrid: Expand your possibilities](https://events.redhat.com/profile/form/index.cfm?PKformID=0x671090001))
+
+([Thriving in Uncertainty: 5 Leadership Activities for a Nimble Response](https://www.youtube.com/watch?v=rU0SLCAUjds))
+
+([GitLab Commit Conf 2020](https://www.youtube.com/c/Gitlab/playlists?view=50&sort=dd&shelf_id=5))
+
+([SAFe Summit 2020](https://global.safesummit.com/))
 
