@@ -13,7 +13,7 @@ Thank you everyone who helped me on walking this path: from Anna helping me impr
 
 [Organize for Innovation](https://opensource.com/open-organization/resources/organize-innovation) by Jim Whitehurst
 
-[Resolver los conflictos a través de la comunicación no violenta: una conversación con Gabriele Seils](https://www.amazon.es/dp/B00H464Z0E/ref=as_sl_pc_qf_sp_asin_til?tag=10dc87-21&linkCode=w00&linkId=92a3b0928e9b3aa5cc3ee0643d1aaaf4&creativeASIN=B00H464Z0E) by Marshall B. Rosenberg
+[Resolver los conflictos a través de la comunicación no violenta: una conversación con Gabriele Seils](https://www.amazon.es/gp/product/8415053053/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=enricforn-21&creative=24630&linkCode=as2&creativeASIN=8415053053&linkId=3d8addb196ee08e53465eed7517fd6dc) by Marshall B. Rosenberg
 
 [Building Cloud Native Apps Painlessly](https://www.cloudbees.com/resource/ebook/building-cloud-native-apps-painlessly) by Robert Davies, Brian Dawson, James Rawlings and James Strachan
 
