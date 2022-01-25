@@ -13,9 +13,12 @@ image: /images/posts/learning-path-2021/header.jpg
 
 ## Articles written
 
+[What's Next Beyond DevOps](https://enricforn.github.io/devops/product%20management/2021/06/09/whats-next-beyond-devops/)
+
 ## Courses
 
-## Events assistance
+[TOGAF® 9 Combined level 1 and level 2](https://www.simplilearn.com/it-service-management/togaf-certification-program-training)
 
+## Events assistance
 
 ([LeadDev Live](https://leaddev.com/course/leaddev-live))
