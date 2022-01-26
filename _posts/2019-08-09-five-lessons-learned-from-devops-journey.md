@@ -13,7 +13,7 @@ Over the past ten years I've been guided on my DevOps journey by the aim to impr
 
 DevOps technics and patterns are widely explained in many posts, books and podcasts. In this post I share five most important lessons learned in my DevOps journey.
 
-## 1. Measure your development process
+## 1. [Measure Your Development Process](#1-measure-your-development-process)
 
 Eficiency and removing waste are two main objective key results that you should pursue in your DevOps journey. If you want to improve your software delivery performance, it's important to drive your actions based on emphirical information. You should be able to measure the following metrics:
 
@@ -25,7 +25,7 @@ Eficiency and removing waste are two main objective key results that you should 
 
 By collecting all this information from these indicators you are assessing which is your starting point. At this time, you can address objective conversations based on these data, and allows you to create the first backlog to improve your system. While monitoring these indicators, you will be able to check if your system is improved or not, in each changes delivered to your applications, tools or processes.
 
-## 2. Show business value to managers
+## 2. [Show Business Value To Managers](#2-show-business-value-to-managers)
 
 Regardless the size of the organization, you'll need investment to improve your toolchain, refactor applications, update processes or teach your employees. It's really important to map your efforts to monetization, in terms of improvement.
 
@@ -37,7 +37,7 @@ By improving key performance indicators listed in point 1, first beneficiary is 
 
 - If you improve your mean time to recover service, you can traduce it to better service given to customers.
 
-## 3. Focus on a Learning culture in your organization
+## 3. [Focus On A Learning Culture In Your Organization](#3-focus-on-a-learning-culture-in-your-organization)
 
 Work on culture's organization is one of the most difficult challenges to be addressed. DevOps is an enabler that allows your company to walk to a learning and innovation culture.
 
@@ -51,7 +51,7 @@ At this point, when I work on improve a culture's organization, I focus the effo
 
 **Establish purpose** which guide outputs aligned to outcomes defined by business, through your products. This strategy enables alignment in the entire organization.
 
-## 4. Achieve big through small
+## 4. [Achieve Big Through Small](#4-achieve-big-through-small)
 
 It's very difficult to transform an organitzation in a short term. People need to learn step by step how to use new techniques and tools, and change their behaviors.
 
@@ -63,7 +63,7 @@ Innovation teams probably are the ones who are leading the DevOps transformation
 
 I should propose you to identify the early adopters teams in your organization to start your DevOps transformation. Check your model with early adopters teams and refine it.  Collect KPIs before and after the adoption, and then extract metrics from your measurements. You should visualize the improvements as the teams are more comfortable and more productive while using devops toolchain. Overcommunicate all these results to the entire organization, and then expand that devops model step by step throughout your company. 
 
-## 5. Your DevOps journey never ends
+## 5. [Your DevOps Journey Never Ends](#5-your-devops-journey-never-ends)
 
 Yes, once you've started your DevOps journey it will never ends. Capabilities, processes and behaviours of teams, will probably change, and you technics, practices and platforms must also change. Observer your toolchain system and improve it. Keep your eye on these situations:
  + New languages used by development team which are not supported by your pipeline.

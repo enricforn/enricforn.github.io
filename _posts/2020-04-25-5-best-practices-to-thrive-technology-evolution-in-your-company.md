@@ -9,22 +9,22 @@ image: /images/posts/thrive-technology-evolution/header.jpg
 
 ### If you are responsible for technology in your company, whether as CTO or middle-manager, this post will help you to thrive the technology evolution in your company. If you work in a startup or a big organization, this post will show you 5 best practices to elevate your company to the new technology paradigm.
 
-## **Committed Technology Manager**
+## [**Committed Technology Manager**](#committed-technology-manager)
 
 Are you are the kind of person who loves learning about cutting edge technologies, discussing with your peers about different ways of using a tool or language (probably nowadays it would be Terraform, GO, RUST, Python, ...), or how to use new development practices to improve your development lifecycle, such as XP, Agile, Lean or DevOps...? Is Everything going right and you are having fun? Do you want to go a step further, so your company can benefit from your knowledge about technology? Isn't that why you write an ideal roadmap which your company should invest in to perform better at delivering software ? Up to now, everything is working fine? You've been working for many years in the IT industry, starting from the grassroots. You caught the new vibes from the latest cutting edge technology trends. You are prepared to lead your company's technology evolution. You truly believe that the company should provide a budget for this program and run it to stay competitive.
 
-## **My Stakeholders Do Not Understand My Evolution Roadmap**
+## [**My Stakeholders Do Not Understand My Evolution Roadmap**](#my-stakeholders-do-not-understand-my-evolution-roadmap)
 
 Your roadmap seems to be perfect, and it's completely aligned to the latest technology trends. You then share the plan and the program with the development team. Although your plan is focused on the development team, in order to improve their deliveries and make their life easier, they do not feel comfortable with your plan. Your roadmap requires too much effort to learn new tools, and to change processes, beyond the volume of business deliverables they have with current apps. They think your plan is great but not feasible. You feel disappointed. You don't understand why developers want to continue working in the same way, and with the same technology and tools.
 
 But your nightmare doesn't ends here. When the roadmap is exposed to your CEO, simple questions follow: "How much money will this tranformation program cost the company ? What is the estimated date to put it into production environment?" In your mind the answers are: "The program will cost whatever it is worth, and we'll be using these enablers as soon as possible". You bite your tongue as you know they are not the right answers. TOP Management must always have the answers in terms of COST and TIME.
 
-## **Others Walked This Way**
+## [**Others Walked This Way**](#others-walked-this-way)
 
 From my personal experience, for evolution projects to be successful, you must align different goals: delivering software, estimating ROI in terms of quality, cost or time to market, and assuring the development team that their life will be easier. Another point worth considering is getting feedback from all stakeholders. 
 Make sure that your roadmap provides answers to all of the likely problems that will be raised in the feedback.
 
-## **This Is The Plan**
+## [**This Is The Plan**](#this-is-the-plan)
 
 You can follow these practices to build a much more feasible roadmap:
 
@@ -55,7 +55,7 @@ I highly recommend the usage of the [SMART Framework](https://thedigitalprojectm
 You should include a mechanism that allows you to adapt some points of the projects' roadmap whilst being executed. I recommend that you  include regularly milestones to deliver value (for example every two months). In these reviews you can readapt defined projects, or add/remove projects, and fit a continuous evolution roadmap of technology.
 
 
-## **Roadmap Evolution Example**
+## [**Roadmap Evolution Example**](#roadmap-evolution-example)
 
 Let's make an example: You want to provide a platform where the development teams can easily deploy new container-based applications, abstracting them from the complexity of build, release and operational tasks, and let them focusing on solving business needs. You consider launching at least these projects in a program format:
 
@@ -95,7 +95,7 @@ I suggest you use a tool to organize your technology evolution ([taskade](https:
 
 - **Support needed to use this platform and tooling.** In this example there should be a platform team responsible for productivity and constant evolution of the platform. This team should also have the role of enablers, helping everyone to learn how to use this brand new platform.
 
-## **Takeaways**
+## [**Takeaways**](#takeaways)
 
 Aligning all involved stakeholders is critical to get the approval of your evolution roadmap.
 
