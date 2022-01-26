@@ -56,12 +56,16 @@ The implementation of this kind of ecosystem needs to be tailored to each organi
  1. Identify in your software development process actions to automate or integrations between tools developer's daily work.
  2. Validate if there's any open source tool that fix this gap, probably other team had this problem before. Take a loot at [CNCF Clout Native Interactive Landscape](https://landscape.cncf.io/), there's a bunch of useful tools.
  3. Integrate this new product whether is built or bought as smooth as possible to thee development lifecycle.
- 4. Measure the impact in terms of development performance
+ 4. Measure the impact in terms of development performance ([How to measure your development process](https://enricforn.github.io/devops/2019/08/09/five-lessons-learned-from-devops-journey/#1-measure-your-development-process)), and share results with all stakeholders (Developers, Product Managers, C-Level).
+ 5. Repeat process.
 
 You can also consider to contact to companies experts in this field like [Humanitec](https://humanitec.com/) or [Shipa](https://shipa.io/), which has built great SaaS products.
 
+Don't hesitate to contact me if you want more information about how to evolve your development ecosystem.
 
-### What I read while writing this post
+Thanks for reading!
+
+### Interesting Links
 
 - [Okta Businesses at Work report](https://www.okta.com/businesses-at-work/2021/#fastest-growing-apps)
 - [Technology advance at exponential pace](https://en.wikipedia.org/wiki/Accelerating_change)
