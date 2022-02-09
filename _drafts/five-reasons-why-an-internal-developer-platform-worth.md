@@ -17,7 +17,7 @@ In this post, you can figure out how to deal with this complexity and productive
 
 ## What Is An Internal Developer Platform (IDP) And Why I Need One
 
-Internal Developer Platform is a set of tools, services and processes that supports and accelerate your software development and the management of its infrastructure. In your journey to an efficient software development process, often struggle with trying to find the right balance between the standardization of your applications and giving enough freedom to developers to customize the applications. IDP comes with standardization. For example, if a developer starts creating a new application, instead of creating a repo in the SCM, assigning permissions to all contributors, and creating a ticket to the infrastructure team to deploy the application, we can develop a plugin in our preferred IDE or a web application that based on an application name, technology stack and traffic load requirements, automatically register our new application in our Application Portfolio Catalog.
+Internal Developer Platform is a set of tools, services, and processes that supports and accelerate your software development and the management of its infrastructure. In your journey to an efficient software development process, often struggle with trying to find the right balance between the standardization of your applications and giving enough freedom to developers to customize the applications. IDP comes with standardization. For example, if a developer starts creating a new application, instead of creating a repo in the SCM, assigning permissions to all contributors, and creating a ticket to the infrastructure team to deploy the application, we can develop a plugin in our preferred IDE or a web application that based on an application name, technology stack, and traffic load requirements, automatically register our new application in our Application Portfolio Catalog.
 
 ## Win To Win For Everyone
 
@@ -29,37 +29,36 @@ Through and IDP is explicitly implemented which kind of infrastructure you can d
 
 ### **2. Compliance and Governance**
 
-Having your development process implemented throughout an ecosystem of tools allows you to drive software development to satisfy some requirements. For example, from a software development lifecycle perspective, avoid anti-patterns implemented by analyzing code statically. From the infrastructure perspective, by implementing an IDP, you can automate the provisioning of the resources needed, and assure that the platform is hardened and secure.
-You can store information regarding your data, applications, 
+Having your development process implemented throughout an ecosystem of tools allows you to drive software development to satisfy some requirements. For example, from a software development lifecycle perspective, avoid anti patterns implemented by analyzing code statically. Digging a little bit more on this example, you can run an analysis using sonar scanner of [Sonarqube](https://www.sonarqube.org/) as a step of your build process and use your standard [Quality Gate](https://docs.sonarqube.org/latest/user-guide/quality-gates/) which automatically decide if analyzed code has enough quality to be built . I used to customize [Quality Profile](https://docs.sonarqube.org/latest/instance-administration/quality-profiles/) with this [custom rules](https://github.com/davidetaibi/sonarqube-anti-patterns-code-smells). From the infrastructure perspective, by implementing an IDP, you can automate the provisioning of the resources needed, and assure that the platform is hardened and secure automatically. You can store information regarding your data, applications, and supported infrastructure. All these catalogues are commonly used by architects to manage applications and define evolution roadmaps.
 
 ### **3. Focus development teams on business value**
 
-And IDP brings self-service features by automating tasks, thus your development teams do not have to worry about how that. For example, imagine that we implement a feature in our IDP in which you type a name of the application, and a name for 3 components of each (a React SPA, an NPM component and a web service implemented in Rust). By introducing this information to the IDP, you can automate the following tasks:
+And IDP brings self-service features by automating tasks, thus your development teams do not have to worry about. For example, imagine that we implement a feature in our IDP in which you type a name of the application, and a name for 3 components of each (a React SPA, an NPM component, and a web service implemented in Rust). By introducing this information to the IDP, you can automate the following tasks:
  * Automatically provision a group with some repositories in your SCM.
  * Create three repositories for each component and assign a pipeline to each repo as a webhook.
  * Apply a default template to the project.
  * Allocate resources to the development and production environment to allow the deployment of the application.
 
-Usability of toolchain smooth the path of using your ecosystem of tools, and spend just minutes to click on the right options to allocate resources needed.
+Usability of toolchain smooth the path of using your ecosystem of tools and spend just minutes to click on the right options to allocate resources needed.
 
 ### **4. Autonomy**
 
-Developers have all the tools they need and are easily accessible to do the required job in the expected timeline. IDP also enables to centralize teams interactions inside the platform, liberate team members dealing ticketing tools with different workflows to interact with other teams. If I need to create a new application required for the business needs, I simply access to the IDP and I'm able to provision de resources needed.
+Developers have all the tools they need and are easily accessible to do the required job in the expected timeline. IDP also enables to centralize teams interactions inside the platform, liberate team members dealing ticketing tools with different workflows to interact with other teams. If I need to create a new application required for the business needs, I simply access the IDP and I'm able to provision de resources needed.
 
-### **5. Efficiency
+### **5. Efficiency**
 
-Autonomy in software development increases speed and reduces the cost of interacting with other teams in your organization. Your IDP must integrate a set of tools which allows using this ecosystem fast. And you must measured how faster is development, not only for improve your IDP, but also to help development teams to improve the quality of their products and processes.
+Autonomy in software development increases speed and reduces the cost of interacting with other teams in your organisation. Your IDP must integrate a set of tools which allows using this ecosystem really fast. To check if you are on the right way, you should measure the efficiency in delivering software. Lead time, deployment frequency change failure rate and mean time to recover are great indicators.
 
 ## Start Building Your IDP Now
 
-The implementation of this kind of ecosystem needs to be tailored to each organization. Start delivering small changes which benefits development teams in their daily work:
+The implementation of this kind of ecosystem needs to be tailored to each organization. Start delivering small changes which benefit development teams in their daily work:
  1. Identify in your software development process actions to automate or integrations between tools developer's daily work.
- 2. Validate if there's any open source tool that fix this gap, probably other team had this problem before. Take a loot at [CNCF Clout Native Interactive Landscape](https://landscape.cncf.io/), there's a bunch of useful tools.
- 3. Integrate this new product whether is built or bought as smooth as possible to thee development lifecycle.
+ 2. Validate if there's an open-source tool that fixes this gap, probably another team had this problem before. Take a look at [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/), there's a bunch of useful tools.
+ 3. Integrate this new product whether is built or bought as smoothly as possible to the development lifecycle.
  4. Measure the impact in terms of development performance ([How to measure your development process](https://enricforn.github.io/devops/2019/08/09/five-lessons-learned-from-devops-journey/#1-measure-your-development-process)), and share results with all stakeholders (Developers, Product Managers, C-Level).
  5. Repeat process.
 
-You can also consider to contact to companies experts in this field like [Humanitec](https://humanitec.com/) or [Shipa](https://shipa.io/), which has built great SaaS products.
+You can also consider contacting companies experts in this field like [Humanitec](https://humanitec.com/) or [Shipa](https://shipa.io/), which has built great SaaS products.
 
 Don't hesitate to contact me if you want more information about how to evolve your development ecosystem.
 
@@ -76,3 +75,5 @@ Thanks for reading!
 - [CNCF Cloud Native Trail Map](https://github.com/cncf/landscape/blob/master/README.md#trail-map)
 - [Humanitec](https://humanitec.com/)
 - [Shipa](https://shipa.io/)
+- [Sonarqube](https://www.sonarqube.org/)
+- [Anti patterns and code smells](https://github.com/davidetaibi/sonarqube-anti-patterns-code-smells)
