@@ -2,9 +2,9 @@
 layout: post
 title: Five Reasons Why An Internal Developer Platform Is Worth It
 categories: [DevOps, Platform, Efficiency]
-tags: [development, software, devops]
+tags: [development, software, devops,platform]
 author: eforn
-image: /images/posts/internal-developer-platform-worth/header.jpg
+image: /images/posts/internal-developer-platform-is-worth-it/header.jpg
 ---
 
 ### Companies around the world increased the number of deployed apps by 9% in 2021, Okta study says. You would be interested in this post if you are concerned about how to accelerate or scale software development in your organization.
