@@ -1,9 +1,11 @@
 ---
-layout: 
+layout: post
 title: "C-Level DevOps: Vision, Strategy, and Business Outcomes"
-date: 2024-11-06
-categories: DevOps Strategy C-Level
+categories: [DevOps Strategy C-Level]
 tags: [DevOps, Strategy, Business Outcomes, Competitive Advantage]
+date: 2024-11-06
+author: eforn
+image: /images/posts/c-level-devops-vision-strategy-and-business-outcomes/header.jpg
 ---
 
 ## C-Level DevOps: Vision, Strategy, and Business Outcomes
