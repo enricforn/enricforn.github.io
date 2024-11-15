@@ -63,5 +63,3 @@ In the next post I'll explore how to adopt DevOps practices in different layers 
 Don't hesitate to contact me if you want more information about how to evolve your development ecosystem.
 
 Thanks for reading!
-
---- 
